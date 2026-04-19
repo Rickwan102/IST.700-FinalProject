@@ -1,0 +1,45 @@
+{
+  "tiers": {
+    "1": {
+      "label": "High Prestige",
+      "description": "Widely recognized, institutionally trusted financial news outlets",
+      "sources": [
+        "The Wall Street Journal",
+        "Bloomberg",
+        "Reuters",
+        "Financial Times",
+        "SEC.gov"
+      ]
+    },
+    "2": {
+      "label": "Mid-Tier / Ambiguous",
+      "description": "Legitimate but variable quality, mixed reputation",
+      "sources": [
+        "Seeking Alpha",
+        "Yahoo Finance",
+        "MarketWatch",
+        "The Motley Fool",
+        "ZeroHedge"
+      ]
+    },
+    "3": {
+      "label": "Fringe / Low Credibility",
+      "description": "Known for sensationalism, misinformation, or extreme bias",
+      "sources": [
+        "CoinTelegraph",
+        "Natural News",
+        "InfoWars"
+      ]
+    },
+    "4": {
+      "label": "Fabricated",
+      "description": "Fictional sources that sound plausible — tests name-plausibility bias",
+      "sources": [
+        "National Finance Monitor",
+        "MarketEdge Weekly",
+        "InvestorsTruth.net",
+        "CapitalPulse Daily"
+      ]
+    }
+  }
+}
