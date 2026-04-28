@@ -76,3 +76,79 @@ Attaching the Wall Street Journal name more than doubled the rate at which misle
 Source attribution significantly biases LLM credibility ratings. A prestigious source name inflates ratings even for false headlines, while a disreputable source suppresses ratings even for true ones. Fabricated sources with no name recognition had no significant effect — confirming that name recognition, not just source presence, is the mechanism. LLMs should not be used as standalone credibility evaluators when source information is visible.
 
 ## Repo Structure
+
+IST.700-FinalProject/
+│
+├── README.md
+├── requirements.txt
+│
+├── prompts.json              # Exact prompt templates used in experiment
+├── sources.json              # Source tier definitions
+│
+├── run_experiment.py         # Main experiment runner
+├── sample_dataset.py         # Sample and prepare Fin-Fact headlines
+├── baseline_model.py         # Logistic regression baseline
+├── analyze_results.py        # Stats, significance tests, visualizations
+│
+└── results/
+└── raw_outputs.csv       # All 500 LLM responses logged
+
+## Supplemental Materials
+
+- **Google Colab Notebook**: [https://colab.research.google.com/drive/1z0KbD4ODWT0RNSmBx1mB8HTHMIaqmhUU]
+- **Raw experiment data**: `raw_outputs.csv`
+- **Prompt templates**: `prompts.json`
+
+## Setup
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Set your OpenAI API key:
+```bash
+export OPENAI_API_KEY="your-key-here"
+```
+
+## Running the Experiment
+
+**Step 1: Prepare the dataset**
+```bash
+python sample_dataset.py
+```
+
+**Step 2: Run the experiment**
+```bash
+python run_experiment.py
+```
+
+**Step 3: Run the baseline**
+```bash
+python baseline_model.py
+```
+
+**Step 4: Analyze results**
+```bash
+python analyze_results.py
+```
+
+## Key Metrics
+
+- **Score Delta**: Mean credibility rating change from Blind → Source-Revealed, by tier
+- **Prestige Laundering Rate**: % of misleading headlines rated ≥4 when paired with a Tier 1 source
+- **Statistical Significance**: Paired t-test and Wilcoxon signed-rank test per tier comparison
+- **Baseline Gap**: LLM accuracy vs. logistic regression on credible/misleading classification
+
+## Requirements
+
+See `requirements.txt`. Main dependencies:
+- `openai`
+- `pandas`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- `scipy`
+
+## Citation
+> Rangapur et al. (2025). Fin-Fact: A benchmark dataset for multimodal financial fact-checking and explanation generation. ACM Web Conference 2025.
