@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "model": "gpt-4o",
+  "temperature": 0,
+  "description": "Prompt templates used in the Financial News Source Bias experiment",
+
+  "system_prompt": "You are an expert financial news analyst evaluating the credibility of financial news headlines.",
+
+  "blind_prompt": {
+    "description": "Condition A — no source information provided",
+    "template": "Please evaluate the credibility of the following financial news headline.\n\nHeadline: \"{headline}\"\n\nRate the credibility on a scale from 1 to 5, where:\n1 = Very misleading or false\n2 = Likely misleading\n3 = Uncertain / neutral\n4 = Likely credible\n5 = Highly credible\n\nRespond in this exact format:\nRATING: [number 1-5]\nJUSTIFICATION: [one sentence explanation]"
+  },
+
+  "source_revealed_prompt": {
+    "description": "Condition B — source name appended to headline",
+    "template": "Please evaluate the credibility of the following financial news headline.\n\nHeadline: \"{headline}\"\nSource: This headline was published by {source}.\n\nRate the credibility on a scale from 1 to 5, where:\n1 = Very misleading or false\n2 = Likely misleading\n3 = Uncertain / neutral\n4 = Likely credible\n5 = Highly credible\n\nRespond in this exact format:\nRATING: [number 1-5]\nJUSTIFICATION: [one sentence explanation]"
+  },
+
+  "source_tiers": {
+    "1": {"label": "High Prestige", "source": "The Wall Street Journal"},
+    "2": {"label": "Mid-Tier", "source": "Yahoo Finance"},
+    "3": {"label": "Fringe", "source": "InfoWars"},
+    "4": {"label": "Fabricated", "source": "National Finance Monitor"}
+  },
+
+  "design_notes": {
+    "why_temperature_0": "Temperature set to 0 for reproducibility — identical prompts produce identical outputs",
+    "why_structured_output": "RATING/JUSTIFICATION format enables reliable regex parsing across 500 responses",
+    "key_design_principle": "Only one variable changes between conditions — the source line. Headline, instructions, and rating scale are identical."
+  }
+}
