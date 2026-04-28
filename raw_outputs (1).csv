@@ -1,0 +1,901 @@
+headline_id,headline,ground_truth,condition,source,source_tier,tier_label,rating,justification
+0,Is this a picture of valueless currency lying in the streets of Venezuela?,misleading,blind,,,Blind,4,"Venezuela has experienced hyperinflation, leading to instances where its currency has been discarded or devalued significantly, making the scenario plausible."
+0,Is this a picture of valueless currency lying in the streets of Venezuela?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the economic situation in Venezuela has led to hyperinflation and currency devaluation, making the scenario plausible."
+0,Is this a picture of valueless currency lying in the streets of Venezuela?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"While the headline is sensational, it is plausible given Venezuela's history of hyperinflation and economic instability, which has led to reports of devalued currency being discarded."
+0,Is this a picture of valueless currency lying in the streets of Venezuela?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the accuracy and reliability of the headline."
+0,Is this a picture of valueless currency lying in the streets of Venezuela?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"Venezuela has experienced hyperinflation in recent years, leading to instances where its currency has been discarded or devalued, making the scenario described in the headline plausible."
+1,Was Target's stock negatively affected by their transgender bathroom policy?,misleading,blind,,,Blind,3,"The headline suggests a causal relationship that is difficult to verify without specific data linking Target's stock performance directly to their transgender bathroom policy, making it uncertain without further context or evidence."
+1,Was Target's stock negatively affected by their transgender bathroom policy?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and Target's transgender bathroom policy has been a topic of public debate that could plausibly impact investor sentiment and stock performance."
+1,Was Target's stock negatively affected by their transgender bathroom policy?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline raises a question about a potential correlation between Target's stock performance and its transgender bathroom policy, but without specific data or analysis, it remains uncertain whether there is a direct causal relationship."
+1,Was Target's stock negatively affected by their transgender bathroom policy?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+1,Was Target's stock negatively affected by their transgender bathroom policy?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline raises a question about a potential correlation between Target's stock performance and its transgender bathroom policy, but without specific data or context, it is uncertain whether the policy had a direct impact on the stock."
+2,Must senior citizens receiving Social Security pay for Medicare while unauthorized immigrants receive it at no cost?,misleading,blind,,,Blind,1,"Unauthorized immigrants are generally not eligible for Medicare, and senior citizens typically pay premiums for Medicare Part B, making the headline misleading."
+2,Must senior citizens receiving Social Security pay for Medicare while unauthorized immigrants receive it at no cost?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The headline is likely misleading as unauthorized immigrants are generally not eligible for Medicare, which is typically funded through payroll taxes and premiums paid by beneficiaries, including senior citizens."
+2,Must senior citizens receiving Social Security pay for Medicare while unauthorized immigrants receive it at no cost?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is likely misleading as unauthorized immigrants are generally not eligible for Medicare, which is typically funded through payroll taxes and premiums paid by eligible recipients, including senior citizens."
+2,Must senior citizens receiving Social Security pay for Medicare while unauthorized immigrants receive it at no cost?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and the claim in the headline is misleading as unauthorized immigrants are not eligible for Medicare benefits."
+2,Must senior citizens receiving Social Security pay for Medicare while unauthorized immigrants receive it at no cost?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is misleading as unauthorized immigrants are not eligible for Medicare, which is a program primarily for U.S. citizens and certain legal residents, and senior citizens typically pay premiums for Medicare Part B and D."
+3,Bill Lynch told three lies in ten seconds,credible,blind,,,Blind,1,"The headline lacks context, specific details, and a reliable source, making it difficult to assess its credibility."
+3,Bill Lynch told three lies in ten seconds,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline lacks context and specifics, making it difficult to assess its credibility without further information."
+3,Bill Lynch told three lies in ten seconds,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline lacks context and specifics about the alleged lies, making it likely misleading without further substantiation or details."
+3,Bill Lynch told three lies in ten seconds,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+3,Bill Lynch told three lies in ten seconds,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline lacks context and specific details, making it difficult to verify the claim or assess its relevance to financial news."
+4,There is a direct connection between discriminatory policies within the USDA and the enormous land loss we have seen among Black farmers over the past century.,credible,blind,,,Blind,5,Historical evidence and numerous studies have documented discriminatory practices by the USDA that have contributed to significant land loss among Black farmers over the past century.
+4,There is a direct connection between discriminatory policies within the USDA and the enormous land loss we have seen among Black farmers over the past century.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and historical evidence supports the claim that discriminatory policies within the USDA have contributed to significant land loss among Black farmers over the past century."
+4,There is a direct connection between discriminatory policies within the USDA and the enormous land loss we have seen among Black farmers over the past century.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Historical evidence and numerous studies have documented discriminatory practices by the USDA that have contributed to significant land loss among Black farmers, making this headline highly credible."
+4,There is a direct connection between discriminatory policies within the USDA and the enormous land loss we have seen among Black farmers over the past century.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"While the issue of discriminatory policies affecting Black farmers is well-documented, InfoWars is known for promoting conspiracy theories and misinformation, which undermines the credibility of the headline."
+4,There is a direct connection between discriminatory policies within the USDA and the enormous land loss we have seen among Black farmers over the past century.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"Historical evidence and numerous studies have documented discriminatory policies within the USDA that have contributed to significant land loss among Black farmers over the past century, making this headline highly credible."
+5,"Rand Paul wants to end all federal faith-based initiatives, and even end the deduction for religious charities.",credible,blind,,,Blind,2,"While Rand Paul has expressed libertarian views that often include reducing government involvement, there is no widely reported or verified statement from him specifically advocating for ending all federal faith-based initiatives and deductions for religious charities."
+5,"Rand Paul wants to end all federal faith-based initiatives, and even end the deduction for religious charities.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's claim about Rand Paul's stance requires verification from his official statements or policy proposals to confirm its accuracy."
+5,"Rand Paul wants to end all federal faith-based initiatives, and even end the deduction for religious charities.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline's credibility is uncertain without further context or direct statements from Rand Paul, as it is unusual for a financial news outlet to report on political stances without clear evidence or quotes."
+5,"Rand Paul wants to end all federal faith-based initiatives, and even end the deduction for religious charities.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making this headline highly suspect without corroboration from more reliable sources."
+5,"Rand Paul wants to end all federal faith-based initiatives, and even end the deduction for religious charities.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline's credibility is uncertain without further context or confirmation from reliable sources, as it involves a specific policy stance attributed to a public figure that requires verification."
+6,Who is responsible for the increase in debt?,credible,blind,,,Blind,3,"The headline is vague and lacks specific context or details, making it difficult to assess its credibility without further information."
+6,Who is responsible for the increase in debt?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its thorough financial reporting, making it likely credible, though the headline's lack of specificity requires further context for full assessment."
+6,Who is responsible for the increase in debt?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific context or data, making it difficult to assess its credibility without further information."
+6,Who is responsible for the increase in debt?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+6,Who is responsible for the increase in debt?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is vague and lacks specific details or context, making it difficult to assess its credibility without further information."
+7,Does this meme show examples of racial bias in prosecutions for tax evasion?,misleading,blind,,,Blind,1,"The headline is misleading as it suggests a meme, which is typically not a reliable source of factual information, can provide credible evidence of racial bias in legal prosecutions."
+7,Does this meme show examples of racial bias in prosecutions for tax evasion?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The headline's focus on a meme as evidence for racial bias in prosecutions is atypical for The Wall Street Journal's usual reporting standards, suggesting it may be misleading or taken out of context."
+7,Does this meme show examples of racial bias in prosecutions for tax evasion?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline's credibility is uncertain as it references a meme, which is not a reliable source of information, and the topic of racial bias in prosecutions requires careful analysis beyond what a meme can provide."
+7,Does this meme show examples of racial bias in prosecutions for tax evasion?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+7,Does this meme show examples of racial bias in prosecutions for tax evasion?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,The headline's focus on a meme as evidence for racial bias in prosecutions lacks the rigor and reliability typically required for credible financial news reporting.
+8,Says a proposed $1.05 billion Austin school district bond proposition will require no tax rate increase.,credible,blind,,,Blind,4,"It is common for school districts to propose bonds that do not require a tax rate increase by using existing tax revenue or reallocating funds, but the specifics depend on the district's financial situation and voter approval."
+8,Says a proposed $1.05 billion Austin school district bond proposition will require no tax rate increase.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and while the claim about no tax rate increase is plausible due to potential reallocation of existing funds or increased property values, further details would be needed to fully verify the financial strategy."
+8,Says a proposed $1.05 billion Austin school district bond proposition will require no tax rate increase.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"While it is possible for a bond proposition to not require a tax rate increase if funded through existing revenues or budget reallocations, further details from the source would be needed to fully verify this claim."
+8,Says a proposed $1.05 billion Austin school district bond proposition will require no tax rate increase.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the accuracy of their financial reporting."
+8,Says a proposed $1.05 billion Austin school district bond proposition will require no tax rate increase.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The claim that a large bond proposition will require no tax rate increase is plausible but depends on various factors such as existing tax revenues, budget allocations, and financial strategies, which are not detailed in the headline."
+9,"Is Stacey Abrams in debt of over $50,000 in unpaid taxes?",credible,blind,,,Blind,3,"The headline raises a question without providing evidence or context, making it difficult to assess its credibility without further information."
+9,"Is Stacey Abrams in debt of over $50,000 in unpaid taxes?",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous fact-checking, making it likely credible, though further verification of the specific claim would be prudent."
+9,"Is Stacey Abrams in debt of over $50,000 in unpaid taxes?",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline raises a question rather than stating a fact, making it uncertain without further context or evidence provided in the article."
+9,"Is Stacey Abrams in debt of over $50,000 in unpaid taxes?",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect without corroboration from more reliable sources."
+9,"Is Stacey Abrams in debt of over $50,000 in unpaid taxes?",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline raises a question rather than stating a fact, and without additional context or evidence from a reliable source, it is difficult to assess its credibility."
+10,"In New York, Average college debt - $30,000 per student.",credible,blind,,,Blind,4,"The average college debt figure of around $30,000 per student is consistent with widely reported national averages, making the headline likely credible."
+10,"In New York, Average college debt - $30,000 per student.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source known for its accurate financial reporting, making this headline highly credible."
+10,"In New York, Average college debt - $30,000 per student.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The average college debt figure of around $30,000 per student is consistent with widely reported national averages, making the headline likely credible."
+10,"In New York, Average college debt - $30,000 per student.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the accuracy of their financial reporting."
+10,"In New York, Average college debt - $30,000 per student.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The average college debt figure of around $30,000 per student is consistent with widely reported national averages, lending credibility to the headline."
+11,Who is responsible for the escalation of the debt?,credible,blind,,,Blind,3,"The headline is vague and lacks specific context or details, making it difficult to assess its credibility without additional information."
+11,Who is responsible for the escalation of the debt?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its thorough financial reporting, making it likely credible, though the headline's lack of specificity requires further context for full assessment."
+11,Who is responsible for the escalation of the debt?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific information, making it difficult to assess its credibility without further context or details."
+11,Who is responsible for the escalation of the debt?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+11,Who is responsible for the escalation of the debt?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is vague and lacks specific details or context, making it difficult to assess its credibility without further information."
+12,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,misleading,blind,,,Blind,3,"There is no widely reported or verified information confirming that Senator Tom Cotton has suggested drug testing for Social Security beneficiaries, making the claim uncertain without further evidence."
+12,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is phrased as a question, which suggests uncertainty, and without additional context or confirmation from reliable sources, it is difficult to assess its accuracy."
+12,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is phrased as a question, which suggests uncertainty, and without additional context or confirmation from reliable sources, it is difficult to assess its accuracy."
+12,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for publishing conspiracy theories and misinformation, making the credibility of this headline questionable without further verification from more reliable sources."
+12,Was it suggested by Senator Tom Cotton that drug testing should be required for individuals receiving Social Security benefits?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"There is no verifiable record or credible source confirming that Senator Tom Cotton has suggested drug testing for Social Security beneficiaries, making the headline likely misleading."
+13,"Is it true that Ecosia, the search engine, utilizes its earnings for tree planting purposes?",credible,blind,,,Blind,5,"Ecosia is well-known for using its profits to fund tree planting projects, making the headline highly credible."
+13,"Is it true that Ecosia, the search engine, utilizes its earnings for tree planting purposes?",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"Ecosia is well-known for using its profits to fund tree planting projects, and The Wall Street Journal is a reputable source, making this headline highly credible."
+13,"Is it true that Ecosia, the search engine, utilizes its earnings for tree planting purposes?",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Ecosia is well-known for using its profits to fund tree planting projects, a fact that is widely reported and verified by multiple credible sources."
+13,"Is it true that Ecosia, the search engine, utilizes its earnings for tree planting purposes?",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",4,"Ecosia is known for using its profits to fund tree planting projects, but the credibility of the source, InfoWars, is questionable, which slightly reduces the overall credibility of the headline."
+13,"Is it true that Ecosia, the search engine, utilizes its earnings for tree planting purposes?",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"Ecosia is well-known for using its profits to fund tree planting projects, making the headline highly credible."
+14,"Ted Cruz: Vets Should Sell Cookies for Funding, Like Girl Scouts",misleading,blind,,,Blind,1,This headline is likely misleading or false as it presents an implausible and sensational statement attributed to a public figure without context or evidence.
+14,"Ted Cruz: Vets Should Sell Cookies for Funding, Like Girl Scouts",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The headline is likely satirical or taken out of context, as it is improbable that a reputable source like The Wall Street Journal would publish such a statement without it being a misrepresentation or exaggeration of Ted Cruz's actual comments."
+14,"Ted Cruz: Vets Should Sell Cookies for Funding, Like Girl Scouts",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"This headline is likely satirical or taken out of context, as it suggests an implausible and controversial statement from a public figure, which is not typical of serious financial news reporting."
+14,"Ted Cruz: Vets Should Sell Cookies for Funding, Like Girl Scouts",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for publishing conspiracy theories and misinformation, making this headline highly suspect and likely false."
+14,"Ted Cruz: Vets Should Sell Cookies for Funding, Like Girl Scouts",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline appears to be sensational and lacks context or evidence, making it likely to be misleading or false."
+15,"Indeed, the IRS instructed taxpayers to report stolen possessions and illicit earnings.",credible,blind,,,Blind,5,"The IRS has historically required taxpayers to report all income, including illegal earnings, and has guidelines for reporting stolen property, making this headline highly credible."
+15,"Indeed, the IRS instructed taxpayers to report stolen possessions and illicit earnings.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and the IRS has historically required taxpayers to report all income, including illicit earnings, which aligns with the headline's claim."
+15,"Indeed, the IRS instructed taxpayers to report stolen possessions and illicit earnings.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"The IRS has historically required taxpayers to report all income, including illegal earnings, and has issued guidance on reporting stolen property, making this headline highly credible."
+15,"Indeed, the IRS instructed taxpayers to report stolen possessions and illicit earnings.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",4,"The IRS has indeed instructed taxpayers to report stolen property and illegal income as part of their tax filings, although the source, InfoWars, is known for spreading misinformation, the specific claim aligns with IRS guidelines."
+15,"Indeed, the IRS instructed taxpayers to report stolen possessions and illicit earnings.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"The IRS has indeed instructed taxpayers to report stolen property and illegal income as part of their taxable income, which aligns with their guidelines on reporting all income, legal or illegal."
+16,The country's bankrupt.,misleading,blind,,,Blind,1,"Countries do not go bankrupt in the same way companies or individuals do, as they have sovereign powers to manage debt and currency, making the headline misleading."
+16,The country's bankrupt.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"While The Wall Street Journal is a reputable source, the headline is overly simplistic and lacks context, as countries do not typically go bankrupt in the same way companies do, making it likely misleading."
+16,The country's bankrupt.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is vague and sensationalist, lacking specific details about which country is being referred to and the context of the bankruptcy, which is atypical for a credible financial news source like Yahoo Finance."
+16,The country's bankrupt.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely misleading."
+16,The country's bankrupt.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline is likely misleading as countries do not go bankrupt in the same way companies do, and such a claim requires substantial evidence and context."
+17,Was Mitch McConnell's polio treatment in the 1940s funded by the U.S. Government?,misleading,blind,,,Blind,1,This headline is not related to financial news and appears to be misleading as it focuses on a historical medical treatment rather than a financial topic.
+17,Was Mitch McConnell's polio treatment in the 1940s funded by the U.S. Government?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline does not directly relate to current financial news and lacks context or evidence regarding the funding of Mitch McConnell's polio treatment, making it difficult to assess its credibility without further information."
+17,Was Mitch McConnell's polio treatment in the 1940s funded by the U.S. Government?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is unrelated to financial news and lacks relevance to Yahoo Finance's typical coverage, suggesting it may be misleading or false."
+17,Was Mitch McConnell's polio treatment in the 1940s funded by the U.S. Government?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+17,Was Mitch McConnell's polio treatment in the 1940s funded by the U.S. Government?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is misleading as it focuses on a historical personal health matter unrelated to current financial news, and the source does not provide evidence or context linking it to financial implications."
+18,Says the reforms in state Issue 2 will save taxpayer dollars,credible,blind,,,Blind,3,"The headline lacks specific details about the reforms or evidence supporting the claim, making it difficult to assess its credibility."
+18,Says the reforms in state Issue 2 will save taxpayer dollars,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline lacks specific details about the reforms or evidence supporting the claim, making it difficult to assess its credibility without further context."
+18,Says the reforms in state Issue 2 will save taxpayer dollars,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline lacks specific details about the reforms or evidence supporting the claim, making it difficult to assess its credibility without further context."
+18,Says the reforms in state Issue 2 will save taxpayer dollars,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+18,Says the reforms in state Issue 2 will save taxpayer dollars,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline lacks specific details about the reforms or evidence supporting the claim, making it difficult to assess its credibility without further context."
+19,"An amendment, pushed by Lyndon Johnson many years ago, threatens religious institutions with a loss of their tax-exempt status if they openly advocate their political views.",credible,blind,,,Blind,4,"The headline refers to the Johnson Amendment, which restricts tax-exempt organizations, including religious institutions, from endorsing or opposing political candidates, making the statement likely credible."
+19,"An amendment, pushed by Lyndon Johnson many years ago, threatens religious institutions with a loss of their tax-exempt status if they openly advocate their political views.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The headline accurately refers to the Johnson Amendment, a provision in the U.S. tax code introduced by Lyndon Johnson in 1954, which restricts tax-exempt organizations, including religious institutions, from endorsing or opposing political candidates."
+19,"An amendment, pushed by Lyndon Johnson many years ago, threatens religious institutions with a loss of their tax-exempt status if they openly advocate their political views.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline refers to the Johnson Amendment, a real provision in the U.S. tax code that restricts tax-exempt organizations, including religious institutions, from endorsing or opposing political candidates, making the claim likely credible."
+19,"An amendment, pushed by Lyndon Johnson many years ago, threatens religious institutions with a loss of their tax-exempt status if they openly advocate their political views.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"While the Johnson Amendment does restrict tax-exempt organizations, including religious institutions, from endorsing political candidates, the headline's source, InfoWars, is known for spreading misinformation, which raises doubts about the context and accuracy of the claim."
+19,"An amendment, pushed by Lyndon Johnson many years ago, threatens religious institutions with a loss of their tax-exempt status if they openly advocate their political views.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The headline refers to the Johnson Amendment, a real provision in the U.S. tax code that restricts tax-exempt organizations, including religious institutions, from endorsing or opposing political candidates, making the headline likely credible."
+20,Is Biden and the Democrats considering monitoring bank and Cash App accounts?,misleading,blind,,,Blind,2,"While there have been discussions about increased financial reporting requirements for certain transactions to combat tax evasion, the headline is misleading as it suggests a broad and invasive monitoring policy without sufficient context or evidence."
+20,Is Biden and the Democrats considering monitoring bank and Cash App accounts?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is vague and lacks specific details, making it difficult to assess its accuracy without further context or information from the article itself."
+20,Is Biden and the Democrats considering monitoring bank and Cash App accounts?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific details, making it difficult to assess its accuracy without further context or evidence."
+20,Is Biden and the Democrats considering monitoring bank and Cash App accounts?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely misleading."
+20,Is Biden and the Democrats considering monitoring bank and Cash App accounts?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline is likely misleading as it suggests a broad and invasive monitoring policy without providing context or evidence, and such claims often stem from misinterpretations of proposed financial regulations aimed at tax compliance."
+21,Canada provides financial assistance to polygamist immigrants in the form of 'start-up money'.,misleading,blind,,,Blind,1,"There is no credible evidence or official policy indicating that Canada provides financial assistance specifically to polygamist immigrants in the form of ""start-up money."""
+21,Canada provides financial assistance to polygamist immigrants in the form of 'start-up money'.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The headline is highly misleading as it suggests a specific and controversial policy that is unlikely to be true, and such a claim would require substantial evidence and context, which is not typically supported by credible sources like The Wall Street Journal."
+21,Canada provides financial assistance to polygamist immigrants in the form of 'start-up money'.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is highly misleading as Canada does not provide financial assistance specifically to polygamist immigrants, and such a claim lacks credible evidence or official policy backing."
+21,Canada provides financial assistance to polygamist immigrants in the form of 'start-up money'.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely false."
+21,Canada provides financial assistance to polygamist immigrants in the form of 'start-up money'.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is highly misleading as there is no credible evidence or policy indicating that Canada provides financial assistance specifically to polygamist immigrants in the form of ""start-up money."""
+22,"Speaking of the financial crisis that gained traction in 2007, I talked about it to anyone who would listen, a crisis is coming.",credible,blind,,,Blind,3,"The headline is vague and lacks specific details or sources, making it difficult to assess its credibility without additional context."
+22,"Speaking of the financial crisis that gained traction in 2007, I talked about it to anyone who would listen, a crisis is coming.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is vague and lacks specific details or context, making it difficult to assess its credibility without further information."
+22,"Speaking of the financial crisis that gained traction in 2007, I talked about it to anyone who would listen, a crisis is coming.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific details or evidence to support the claim of a new crisis, making it difficult to assess its credibility without further context."
+22,"Speaking of the financial crisis that gained traction in 2007, I talked about it to anyone who would listen, a crisis is coming.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, which undermines the credibility of its financial news reporting."
+22,"Speaking of the financial crisis that gained traction in 2007, I talked about it to anyone who would listen, a crisis is coming.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is vague and lacks specific details or evidence to support the claim, making it difficult to assess its credibility."
+23,Says Donald Trump's position isto roll back all of the financial regulations passed after the financial crisis.,credible,blind,,,Blind,3,"While Donald Trump has expressed intentions to roll back certain financial regulations, the statement is too broad and lacks specific context or direct quotes, making it uncertain without further details."
+23,Says Donald Trump's position isto roll back all of the financial regulations passed after the financial crisis.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and Donald Trump has previously expressed intentions to roll back financial regulations, making the headline likely credible."
+23,Says Donald Trump's position isto roll back all of the financial regulations passed after the financial crisis.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific details or direct quotes from Donald Trump, making it difficult to assess its accuracy without further context or evidence."
+23,Says Donald Trump's position isto roll back all of the financial regulations passed after the financial crisis.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the accuracy and reliability of this headline."
+23,Says Donald Trump's position isto roll back all of the financial regulations passed after the financial crisis.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is vague and lacks specific details or direct quotes from Donald Trump, making it difficult to verify its accuracy without further context or evidence."
+24,Did 'Liberals' Set Up a GoFundMe Campaign for Murder Suspect Cristhian Rivera?,misleading,blind,,,Blind,1,"The headline is misleading as it implies a political motive without evidence and GoFundMe campaigns can be set up by anyone, not necessarily linked to a political group."
+24,Did 'Liberals' Set Up a GoFundMe Campaign for Murder Suspect Cristhian Rivera?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The Wall Street Journal is a reputable financial news source, and this headline does not align with its typical coverage, suggesting it is likely misleading or false."
+24,Did 'Liberals' Set Up a GoFundMe Campaign for Murder Suspect Cristhian Rivera?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is misleading as it does not pertain to financial news and Yahoo Finance is not a typical source for political or crime-related news, suggesting a potential misclassification or misinformation."
+24,Did 'Liberals' Set Up a GoFundMe Campaign for Murder Suspect Cristhian Rivera?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making this headline highly suspect and likely false."
+24,Did 'Liberals' Set Up a GoFundMe Campaign for Murder Suspect Cristhian Rivera?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is misleading as it focuses on a political angle rather than financial news, and the source, National Finance Monitor, is not a recognized authority on such matters."
+25,"During the time when a Republican president with conservative views was in office, the job loss rate was at 750,000 per month.",credible,blind,,,Blind,4,"The headline likely refers to the period during the Great Recession when President George W. Bush, a Republican, was in office, and the U.S. experienced significant job losses, making the statement likely credible."
+25,"During the time when a Republican president with conservative views was in office, the job loss rate was at 750,000 per month.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the figure likely refers to the job losses during the Great Recession under President George W. Bush, which aligns with historical data."
+25,"During the time when a Republican president with conservative views was in office, the job loss rate was at 750,000 per month.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline likely refers to the period during the Great Recession when President George W. Bush, a Republican with conservative views, was in office, and the U.S. experienced significant job losses, making the statement likely credible."
+25,"During the time when a Republican president with conservative views was in office, the job loss rate was at 750,000 per month.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the accuracy and context of the claim."
+25,"During the time when a Republican president with conservative views was in office, the job loss rate was at 750,000 per month.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline lacks specific details such as the time period or the president in question, making it difficult to verify without additional context."
+26,Are Chase and Wells Fargo among the banks funding the Dakota Pipeline?,credible,blind,,,Blind,4,"Chase and Wells Fargo have been reported in the past as part of a consortium of banks providing funding for the Dakota Access Pipeline, making the headline likely credible."
+26,Are Chase and Wells Fargo among the banks funding the Dakota Pipeline?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable financial news source, and the involvement of major banks like Chase and Wells Fargo in funding the Dakota Pipeline has been widely reported and documented in credible media outlets."
+26,Are Chase and Wells Fargo among the banks funding the Dakota Pipeline?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The involvement of major banks like Chase and Wells Fargo in funding the Dakota Access Pipeline has been widely reported and documented in various credible sources, making the headline likely credible."
+26,Are Chase and Wells Fargo among the banks funding the Dakota Pipeline?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the reliability of this headline without further verification from reputable sources."
+26,Are Chase and Wells Fargo among the banks funding the Dakota Pipeline?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"Chase and Wells Fargo have been reported in the past as part of the consortium of banks funding the Dakota Access Pipeline, making the headline likely credible."
+27,Rebel Wilson Did Not Endorse ACV Keto Weight Loss Gummies,misleading,blind,,,Blind,5,"The headline is likely credible as it clarifies a common issue where celebrities are falsely associated with endorsing products without their consent, and such disclaimers are often issued to correct misinformation."
+27,Rebel Wilson Did Not Endorse ACV Keto Weight Loss Gummies,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable and well-established financial news source, making it highly credible for reporting on celebrity endorsements and related financial news."
+27,Rebel Wilson Did Not Endorse ACV Keto Weight Loss Gummies,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Yahoo Finance is a reputable source, and the headline is straightforward, addressing a common issue of celebrity endorsements being falsely attributed."
+27,Rebel Wilson Did Not Endorse ACV Keto Weight Loss Gummies,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",3,"InfoWars is known for promoting conspiracy theories and misinformation, making it difficult to assess the credibility of this specific headline without further verification from more reliable sources."
+27,Rebel Wilson Did Not Endorse ACV Keto Weight Loss Gummies,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The headline is likely credible as it addresses a common issue of celebrity endorsements being falsely attributed, and National Finance Monitor is a source that would typically cover financial implications of such endorsements."
+28,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",credible,blind,,,Blind,4,"The headline is likely credible as it reflects ongoing discussions and reports about the disparity in venture capital funding for Latino businesses despite their significant contribution to new business creation, though exact statistics may vary."
+28,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source known for its rigorous reporting standards, and the statistics in the headline align with widely reported trends regarding the underrepresentation of Latino businesses in venture capital funding."
+28,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline is likely credible as it reflects ongoing discussions and reports about the disparity in venture capital funding for Latino businesses, although specific statistics should be verified with recent data sources."
+28,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises concerns about the accuracy and reliability of the data presented in the headline."
+28,"Latino small businesses are 1 in 4 new businesses, but only 1% of venture capital funding goes to Latino businesses.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The headline aligns with known disparities in venture capital funding for minority-owned businesses, though specific statistics should be verified with recent data sources."
+29,"When the price for oil goes up on the markets, it goesright up, but it never goes down.",misleading,blind,,,Blind,2,"While oil prices can be volatile and may not decrease as quickly as they rise due to various market factors, the statement that they ""never go down"" is an exaggeration and misleading."
+29,"When the price for oil goes up on the markets, it goesright up, but it never goes down.",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The statement is likely misleading as it suggests oil prices never decrease, which is inaccurate given the historical volatility and fluctuations in oil prices."
+29,"When the price for oil goes up on the markets, it goesright up, but it never goes down.",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is likely misleading as it suggests that oil prices never decrease, which is inaccurate given the historical volatility and fluctuations in oil prices due to market dynamics."
+29,"When the price for oil goes up on the markets, it goesright up, but it never goes down.",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and the claim that oil prices never decrease is factually incorrect as oil prices fluctuate based on market conditions."
+29,"When the price for oil goes up on the markets, it goesright up, but it never goes down.",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline is likely misleading as it suggests that oil prices never decrease, which is inaccurate given the historical volatility and fluctuations in oil prices due to market dynamics."
+30,Says more than $3.5 billion in state revenue that is supposed to be dedicated to basic needs and functions is being diverted to make the books look balanced.,credible,blind,,,Blind,3,"The headline lacks specific details about the source of the claim and the context, making it difficult to assess its credibility without further information."
+30,Says more than $3.5 billion in state revenue that is supposed to be dedicated to basic needs and functions is being diverted to make the books look balanced.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous financial reporting, making it likely credible that they would report on such a significant financial issue with accuracy."
+30,Says more than $3.5 billion in state revenue that is supposed to be dedicated to basic needs and functions is being diverted to make the books look balanced.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline lacks specific details about the state or context, making it difficult to assess its credibility without further information."
+30,Says more than $3.5 billion in state revenue that is supposed to be dedicated to basic needs and functions is being diverted to make the books look balanced.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, which significantly undermines the credibility of its financial news reporting."
+30,Says more than $3.5 billion in state revenue that is supposed to be dedicated to basic needs and functions is being diverted to make the books look balanced.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline makes a serious claim about state financial practices without providing specific details or evidence, making it difficult to assess its credibility without further context or verification from reliable sources."
+31,"It is stated that Texas charter schools receive full state funding per student, whereas district schools, which educate 95% of students, receive approximately one-third of their funding from the state with the remainder coming from local property taxes, leading to the high taxes. Districts receive less funding due to limited resources being directed towards charter schools.",credible,blind,,,Blind,2,"The headline oversimplifies the funding mechanisms for Texas schools, as both charter and district schools receive state funding, but district schools also rely on local property taxes, which complicates the claim that districts receive less funding due to charter schools."
+31,"It is stated that Texas charter schools receive full state funding per student, whereas district schools, which educate 95% of students, receive approximately one-third of their funding from the state with the remainder coming from local property taxes, leading to the high taxes. Districts receive less funding due to limited resources being directed towards charter schools.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the headline reflects a common debate about funding disparities between charter and district schools, though the complexity of school funding mechanisms may not be fully captured in a brief headline."
+31,"It is stated that Texas charter schools receive full state funding per student, whereas district schools, which educate 95% of students, receive approximately one-third of their funding from the state with the remainder coming from local property taxes, leading to the high taxes. Districts receive less funding due to limited resources being directed towards charter schools.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline presents a complex issue that may oversimplify the funding mechanisms for Texas schools, as both charter and district schools receive state funding but the proportions and sources can vary, requiring further context for accuracy."
+31,"It is stated that Texas charter schools receive full state funding per student, whereas district schools, which educate 95% of students, receive approximately one-third of their funding from the state with the remainder coming from local property taxes, leading to the high taxes. Districts receive less funding due to limited resources being directed towards charter schools.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of their financial news headlines questionable."
+31,"It is stated that Texas charter schools receive full state funding per student, whereas district schools, which educate 95% of students, receive approximately one-third of their funding from the state with the remainder coming from local property taxes, leading to the high taxes. Districts receive less funding due to limited resources being directed towards charter schools.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline oversimplifies the funding mechanisms for Texas schools, as both charter and district schools receive state funding, but district schools also rely on local property taxes, and the claim that districts receive less funding due to charter schools lacks context and supporting evidence."
+32,Could This Internet Joke Show Racial Prejudice in Cases of Tax Evasion Prosecution?,misleading,blind,,,Blind,3,"The headline suggests a connection between an internet joke and racial prejudice in tax evasion prosecution, which is a complex issue that requires substantial evidence and context to evaluate, making the credibility uncertain without further information."
+32,Could This Internet Joke Show Racial Prejudice in Cases of Tax Evasion Prosecution?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its thorough reporting, making it likely credible that they would explore the intersection of internet culture and racial bias in legal contexts."
+32,Could This Internet Joke Show Racial Prejudice in Cases of Tax Evasion Prosecution?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline suggests a connection between an internet joke and racial prejudice in tax evasion prosecution, which is a complex and serious issue that requires substantial evidence and context to be credible, making it uncertain without further information."
+32,Could This Internet Joke Show Racial Prejudice in Cases of Tax Evasion Prosecution?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+32,Could This Internet Joke Show Racial Prejudice in Cases of Tax Evasion Prosecution?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline suggests a connection between an internet joke and racial prejudice in tax evasion prosecution, which is a complex issue requiring substantial evidence and context not typically provided by a joke, making the credibility uncertain without further information."
+33,The federal government is spending 25 percent of our entire economy versus 100 years ago we spent only 2 percent.,credible,blind,,,Blind,2,"The claim is likely misleading as historical data shows that federal spending as a percentage of GDP was significantly higher than 2 percent 100 years ago, and while current spending is higher, it is not as high as 25 percent of GDP."
+33,The federal government is spending 25 percent of our entire economy versus 100 years ago we spent only 2 percent.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The claim that the federal government spent only 2 percent of the economy 100 years ago is likely misleading, as historical data shows federal spending as a percentage of GDP was higher than 2 percent in the early 20th century, particularly during and after World War I."
+33,The federal government is spending 25 percent of our entire economy versus 100 years ago we spent only 2 percent.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The claim that the federal government spent only 2 percent of the economy 100 years ago is likely misleading, as historical data shows federal spending as a percentage of GDP was higher than 2 percent even in the early 20th century, and the current figure of 25 percent is an approximation that can vary based on different economic conditions and definitions."
+33,The federal government is spending 25 percent of our entire economy versus 100 years ago we spent only 2 percent.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and the claim lacks context and accuracy regarding historical government spending data."
+33,The federal government is spending 25 percent of our entire economy versus 100 years ago we spent only 2 percent.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The claim that the federal government spent only 2 percent of the economy 100 years ago is likely misleading, as historical data shows federal spending was higher than 2 percent of GDP even in the early 20th century, and the current figure of 25 percent is an oversimplification that doesn't account for variations in spending over time."
+34,Did Target experience a significant drop in their stock value as a result of their transgender bathroom policy?,misleading,blind,,,Blind,3,"While Target did face some backlash and boycotts over its transgender bathroom policy in 2016, attributing a significant drop in stock value solely to this policy without considering other market factors is speculative and lacks comprehensive evidence."
+34,Did Target experience a significant drop in their stock value as a result of their transgender bathroom policy?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and Target's transgender bathroom policy has been a controversial topic that could plausibly impact stock value, though the direct causation may require further analysis."
+34,Did Target experience a significant drop in their stock value as a result of their transgender bathroom policy?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"While Target did face some backlash and boycotts over its transgender bathroom policy in 2016, attributing a significant drop in stock value solely to this policy without considering other market factors or company performance is speculative and requires further context."
+34,Did Target experience a significant drop in their stock value as a result of their transgender bathroom policy?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the accuracy and objectivity of their financial reporting."
+34,Did Target experience a significant drop in their stock value as a result of their transgender bathroom policy?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"While Target did face some backlash and a temporary stock dip following their transgender bathroom policy announcement in 2016, attributing a significant drop in stock value solely to this policy is likely misleading as stock prices are influenced by a multitude of factors."
+35,Obama came into office with a $1.3 trillion deficit before I had passed any law... We came in with $8 trillion worth of debt over the next decade.,credible,blind,,,Blind,4,"The statement is likely credible as it reflects historical data showing that President Obama inherited a significant deficit and projected debt, although the exact figures may vary slightly based on different sources and interpretations."
+35,Obama came into office with a $1.3 trillion deficit before I had passed any law... We came in with $8 trillion worth of debt over the next decade.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The statement reflects historical data regarding the U.S. deficit and debt levels when Obama took office, but the phrasing could be misleading without context on how these figures were calculated or projected."
+35,Obama came into office with a $1.3 trillion deficit before I had passed any law... We came in with $8 trillion worth of debt over the next decade.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The statement reflects historical data about the U.S. budget deficit and national debt when President Obama took office, which aligns with widely reported figures, though the phrasing may require context for full clarity."
+35,Obama came into office with a $1.3 trillion deficit before I had passed any law... We came in with $8 trillion worth of debt over the next decade.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this financial claim highly questionable."
+35,Obama came into office with a $1.3 trillion deficit before I had passed any law... We came in with $8 trillion worth of debt over the next decade.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The statement inaccurately attributes the $8 trillion debt projection to Obama without context, as it was a result of pre-existing policies and economic conditions, making it likely misleading."
+36,Is the character Mr. Burns from 'The Simpsons' inspired by banker Jacob Rothschild?,misleading,blind,,,Blind,1,The character Mr. Burns from 'The Simpsons' is a fictional character and there is no credible evidence or official statement linking him to being inspired by banker Jacob Rothschild.
+36,Is the character Mr. Burns from 'The Simpsons' inspired by banker Jacob Rothschild?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The headline is misleading as it suggests a direct inspiration for a fictional character from a specific real-life individual without substantial evidence, and such speculative claims are not typical of The Wall Street Journal's usual financial reporting."
+36,Is the character Mr. Burns from 'The Simpsons' inspired by banker Jacob Rothschild?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is misleading as it speculates on a fictional character's inspiration without credible evidence, and such content is not typical of financial news."
+36,Is the character Mr. Burns from 'The Simpsons' inspired by banker Jacob Rothschild?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, and there is no credible evidence linking the fictional character Mr. Burns from 'The Simpsons' to banker Jacob Rothschild."
+36,Is the character Mr. Burns from 'The Simpsons' inspired by banker Jacob Rothschild?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,The character Mr. Burns from 'The Simpsons' is a fictional character and there is no credible evidence or official statement linking him to being inspired by banker Jacob Rothschild.
+37,"Incorrect, the former NFL quarterback John Elway is not financially destitute.",misleading,blind,,,Blind,4,"There is no substantial evidence or credible reports suggesting that John Elway, a successful former NFL quarterback and executive, is financially destitute, making the headline likely credible."
+37,"Incorrect, the former NFL quarterback John Elway is not financially destitute.",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable and well-established financial news source, making it highly credible in reporting on financial matters."
+37,"Incorrect, the former NFL quarterback John Elway is not financially destitute.",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"Yahoo Finance is a reputable source for financial news, and the headline directly addresses and refutes a specific claim, suggesting it is likely credible."
+37,"Incorrect, the former NFL quarterback John Elway is not financially destitute.",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the reliability of their financial news reporting."
+37,"Incorrect, the former NFL quarterback John Elway is not financially destitute.",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The headline appears credible as there is no widely reported evidence or credible sources suggesting that John Elway, a successful former NFL quarterback and businessman, is financially destitute."
+38,"Kasichs budget increases state spending from $50.5 billion to $55.6 billion. This is the second largest, two-year spending increase in Ohio history.",credible,blind,,,Blind,4,"The headline appears credible as it provides specific figures and context about Ohio's budget increase under Kasich, which can be verified through state budget records."
+38,"Kasichs budget increases state spending from $50.5 billion to $55.6 billion. This is the second largest, two-year spending increase in Ohio history.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source known for its accurate financial reporting, and the specific figures and historical context provided in the headline suggest a high level of credibility."
+38,"Kasichs budget increases state spending from $50.5 billion to $55.6 billion. This is the second largest, two-year spending increase in Ohio history.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline appears likely credible as it provides specific figures and context about Ohio's state budget, which is consistent with typical reporting on state financial matters, though verification from official state budget documents would be ideal for full confirmation."
+38,"Kasichs budget increases state spending from $50.5 billion to $55.6 billion. This is the second largest, two-year spending increase in Ohio history.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises concerns about the accuracy and reliability of its financial reporting."
+38,"Kasichs budget increases state spending from $50.5 billion to $55.6 billion. This is the second largest, two-year spending increase in Ohio history.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"Without access to specific budgetary data or historical context, it's difficult to verify the accuracy of the spending figures and historical ranking mentioned in the headline."
+39,"Over 80 percent of our trade deficit today is with countries that are not trade agreement partners, that are not level playing fields for the United States.",credible,blind,,,Blind,3,"The statement lacks specific data or sources to verify the claim about the trade deficit and the nature of trade agreements, making it difficult to assess its accuracy without further context."
+39,"Over 80 percent of our trade deficit today is with countries that are not trade agreement partners, that are not level playing fields for the United States.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the statement aligns with common economic analyses that highlight significant trade deficits with non-agreement countries, though specific percentages may require further verification."
+39,"Over 80 percent of our trade deficit today is with countries that are not trade agreement partners, that are not level playing fields for the United States.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The statement requires verification of current trade deficit data and analysis of trade agreements, making it uncertain without further context or evidence."
+39,"Over 80 percent of our trade deficit today is with countries that are not trade agreement partners, that are not level playing fields for the United States.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of their financial news highly questionable."
+39,"Over 80 percent of our trade deficit today is with countries that are not trade agreement partners, that are not level playing fields for the United States.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The statement is plausible but lacks specific data or context to verify its accuracy, making it difficult to assess without further information on trade deficits and agreements."
+40,Did President Trump contribute to Kamala Harris' previous campaign funds?,credible,blind,,,Blind,1,"There is no credible evidence or verified reports to suggest that President Trump contributed to Kamala Harris' previous campaign funds, making this headline very misleading or false."
+40,Did President Trump contribute to Kamala Harris' previous campaign funds?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's claim is unusual and requires further context or evidence to assess its credibility."
+40,Did President Trump contribute to Kamala Harris' previous campaign funds?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is likely misleading as there is no credible evidence or historical precedent suggesting that President Trump contributed to Kamala Harris' campaign funds, making it improbable without further substantiation."
+40,Did President Trump contribute to Kamala Harris' previous campaign funds?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+40,Did President Trump contribute to Kamala Harris' previous campaign funds?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"There is no credible evidence or historical record to suggest that President Trump contributed to Kamala Harris' campaign funds, making this headline highly misleading or false."
+41,"The Alternative Minimum Tax...was created by Congress in 1969 to affect 155 wealthy Americans. Because it was never indexed for inflation, those original 155 taxpayers has increased to affect about 3.5-million in 2006.",credible,blind,,,Blind,5,"The statement accurately reflects the history and impact of the Alternative Minimum Tax, which was indeed not indexed for inflation and expanded its reach significantly over time."
+41,"The Alternative Minimum Tax...was created by Congress in 1969 to affect 155 wealthy Americans. Because it was never indexed for inflation, those original 155 taxpayers has increased to affect about 3.5-million in 2006.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and the information about the Alternative Minimum Tax not being indexed for inflation and affecting more taxpayers over time is a well-documented fact."
+41,"The Alternative Minimum Tax...was created by Congress in 1969 to affect 155 wealthy Americans. Because it was never indexed for inflation, those original 155 taxpayers has increased to affect about 3.5-million in 2006.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"The statement accurately reflects the history and impact of the Alternative Minimum Tax, which was indeed created in 1969 and expanded over time due to lack of inflation indexing, affecting millions by 2006."
+41,"The Alternative Minimum Tax...was created by Congress in 1969 to affect 155 wealthy Americans. Because it was never indexed for inflation, those original 155 taxpayers has increased to affect about 3.5-million in 2006.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",4,"The statement about the Alternative Minimum Tax (AMT) affecting more taxpayers over time due to lack of inflation indexing is generally accurate, though the source, InfoWars, is known for spreading misinformation, which slightly affects credibility."
+41,"The Alternative Minimum Tax...was created by Congress in 1969 to affect 155 wealthy Americans. Because it was never indexed for inflation, those original 155 taxpayers has increased to affect about 3.5-million in 2006.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"The statement accurately reflects the history and impact of the Alternative Minimum Tax, which was indeed not indexed for inflation and expanded its reach significantly over time, affecting millions by 2006."
+42,Says Mitch McConnell pushed the Wall Street bailout through the U.S. Senate and called it the Senate at its finest.,credible,blind,,,Blind,3,"While Mitch McConnell played a role in the 2008 financial crisis legislation, the specific quote and characterization require verification from reliable sources."
+42,Says Mitch McConnell pushed the Wall Street bailout through the U.S. Senate and called it the Senate at its finest.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and Mitch McConnell has been involved in significant legislative actions, making it plausible that he could have played a role in a Wall Street bailout, though the specific quote attribution would need further verification."
+42,Says Mitch McConnell pushed the Wall Street bailout through the U.S. Senate and called it the Senate at its finest.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline lacks specific details such as the time frame or context of the alleged statement, making it difficult to verify its accuracy without further information."
+42,Says Mitch McConnell pushed the Wall Street bailout through the U.S. Senate and called it the Senate at its finest.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the accuracy of this headline."
+42,Says Mitch McConnell pushed the Wall Street bailout through the U.S. Senate and called it the Senate at its finest.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"While Mitch McConnell was involved in legislative processes during financial crises, the specific claim about him calling the Wall Street bailout ""the Senate at its finest"" requires verification from reliable sources to confirm its accuracy."
+43,Has Fox News stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank?,misleading,blind,,,Blind,1,There is no credible evidence or reports from reliable sources indicating that Fox News has stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank.
+43,Has Fox News stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The Wall Street Journal is a reputable source, but there is no credible evidence or reports from Fox News or other reliable outlets confirming that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank."
+43,Has Fox News stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,There is no credible evidence or reports from reliable sources confirming that Fox News has stated Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank.
+43,Has Fox News stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and there is no credible evidence or reports from reliable sources confirming that Fox News reported such a foreclosure notice on Trump's Mar-a-Lago Club."
+43,Has Fox News stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,There is no credible evidence or reports from reliable sources confirming that Fox News has stated that Trump's Mar-a-Lago Club was served a foreclosure notice by Deutsche Bank.
+44,Did Twitter Label CBC's Account '69% Government-Funded Media'?,credible,blind,,,Blind,3,"While Twitter has labeled some media accounts as government-funded, the specific claim of ""69% Government-Funded Media"" for CBC is unusual and lacks verification from reliable sources."
+44,Did Twitter Label CBC's Account '69% Government-Funded Media'?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the headline reflects a plausible scenario given Twitter's history of labeling media accounts, though verification of the specific label is necessary."
+44,Did Twitter Label CBC's Account '69% Government-Funded Media'?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline is likely credible as it references a specific event where Twitter has previously labeled media accounts with funding information, and Yahoo Finance is a reputable source for financial news."
+44,Did Twitter Label CBC's Account '69% Government-Funded Media'?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect without corroboration from more reliable sources."
+44,Did Twitter Label CBC's Account '69% Government-Funded Media'?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,The headline is uncertain as it references a specific action by Twitter that would need verification from Twitter's official communications or CBC's response to confirm its accuracy.
+45,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",credible,blind,,,Blind,2,"While Rick Perry's tenure as governor saw budget cuts, the claim of a 25% reduction in public school funding is likely exaggerated or taken out of context, as budget changes are complex and often involve multiple factors."
+45,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and while the headline may require further context regarding the timeframe and specifics of the funding cuts, it is likely credible."
+45,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline lacks specific details such as the time frame and context of the funding cuts, making it difficult to verify without further information."
+45,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+45,"Says that under Rick Perrys plan, Texas has cut funding for public schools by 25%.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline lacks specific details such as the time frame and context, and the source, National Finance Monitor, is not widely recognized, making it difficult to verify the claim's accuracy."
+46,Was there a restriction put in place by Sberbank in Russia on withdrawing cash to a maximum of $20?,misleading,blind,,,Blind,3,"The headline lacks specific details and context, making it difficult to verify without additional information or sources."
+46,Was there a restriction put in place by Sberbank in Russia on withdrawing cash to a maximum of $20?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The Wall Street Journal is a reputable source, but the specific claim about Sberbank imposing a $20 cash withdrawal limit in Russia is unusual and requires further verification from additional sources."
+46,Was there a restriction put in place by Sberbank in Russia on withdrawing cash to a maximum of $20?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline's credibility is uncertain without additional context or confirmation from reliable sources, as such restrictions would be significant news and likely covered by multiple reputable outlets."
+46,Was there a restriction put in place by Sberbank in Russia on withdrawing cash to a maximum of $20?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable without further verification from reliable sources."
+46,Was there a restriction put in place by Sberbank in Russia on withdrawing cash to a maximum of $20?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline's credibility is uncertain without additional context or confirmation from reliable sources, as such restrictions would be significant news and likely covered by multiple reputable outlets."
+47,"According to the statement, Ronald Reagan rescinded the largest tax cut ever implemented and increased taxes after revenues fell short of projections.",credible,blind,,,Blind,4,"While Ronald Reagan is known for implementing significant tax cuts, he did sign subsequent tax increases after initial revenue projections fell short, making the headline likely credible."
+47,"According to the statement, Ronald Reagan rescinded the largest tax cut ever implemented and increased taxes after revenues fell short of projections.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The headline is likely credible as it reflects historical events where President Ronald Reagan, after initially implementing significant tax cuts, did sign subsequent tax increases when revenues fell short of projections, a fact well-documented in economic history."
+47,"According to the statement, Ronald Reagan rescinded the largest tax cut ever implemented and increased taxes after revenues fell short of projections.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"While Ronald Reagan is known for implementing significant tax cuts, he also signed several tax increases during his presidency when revenues fell short, making the headline likely credible."
+47,"According to the statement, Ronald Reagan rescinded the largest tax cut ever implemented and increased taxes after revenues fell short of projections.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"While Ronald Reagan did implement tax increases after initial tax cuts, the claim that he rescinded the largest tax cut ever is misleading, and InfoWars is known for publishing sensational and often inaccurate information."
+47,"According to the statement, Ronald Reagan rescinded the largest tax cut ever implemented and increased taxes after revenues fell short of projections.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"While Ronald Reagan is known for implementing significant tax cuts, he also signed several tax increases during his presidency when revenues fell short, making the headline likely credible."
+48,Does this internet joke show evidence of racial discrimination in cases of tax evasion prosecution?,misleading,blind,,,Blind,2,"The headline's reliance on an ""internet joke"" as evidence for a serious claim like racial discrimination in tax evasion prosecution is likely misleading, as jokes are not credible sources of factual information."
+48,Does this internet joke show evidence of racial discrimination in cases of tax evasion prosecution?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous journalistic standards, making it likely credible, though the headline's connection between an internet joke and racial discrimination in tax evasion cases requires further context for full assessment."
+48,Does this internet joke show evidence of racial discrimination in cases of tax evasion prosecution?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline's reference to an ""internet joke"" as evidence for a serious claim like racial discrimination in tax evasion prosecution suggests a lack of substantial evidence, making it likely misleading."
+48,Does this internet joke show evidence of racial discrimination in cases of tax evasion prosecution?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+48,Does this internet joke show evidence of racial discrimination in cases of tax evasion prosecution?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline's reliance on an ""internet joke"" as evidence for a serious claim like racial discrimination in tax evasion prosecution suggests a lack of credible sourcing and rigorous analysis."
+49,The federal tax code has loopholes that are giving incentives for companies that are shipping jobs overseas.,credible,blind,,,Blind,4,"The claim that the federal tax code contains loopholes incentivizing companies to move jobs overseas is a credible assertion, as it aligns with longstanding criticisms of certain tax provisions that can make offshoring financially advantageous for multinational corporations."
+49,The federal tax code has loopholes that are giving incentives for companies that are shipping jobs overseas.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and the existence of tax code loopholes incentivizing companies to move jobs overseas is a well-documented issue in economic policy discussions."
+49,The federal tax code has loopholes that are giving incentives for companies that are shipping jobs overseas.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The claim that the federal tax code contains loopholes incentivizing companies to move jobs overseas is a well-documented issue discussed by economists and policymakers, lending credibility to the headline."
+49,The federal tax code has loopholes that are giving incentives for companies that are shipping jobs overseas.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises concerns about the reliability of its reporting on complex issues like tax codes and job outsourcing."
+49,The federal tax code has loopholes that are giving incentives for companies that are shipping jobs overseas.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The claim that the federal tax code contains loopholes incentivizing companies to move jobs overseas is a well-documented issue discussed by economists and policymakers, making the headline likely credible."
+50,Does Search Engine Ecosia Use Profits to Plant Trees?,credible,blind,,,Blind,5,"Ecosia is a well-known search engine that uses its profits to fund tree planting projects, making the headline highly credible."
+50,Does Search Engine Ecosia Use Profits to Plant Trees?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and Ecosia is known for using its profits to fund tree planting, making the headline highly credible."
+50,Does Search Engine Ecosia Use Profits to Plant Trees?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Ecosia is well-known for using its profits to fund tree planting projects, and this information is widely reported and verified by multiple credible sources."
+50,Does Search Engine Ecosia Use Profits to Plant Trees?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the reliability of their reporting on Ecosia's business practices."
+50,Does Search Engine Ecosia Use Profits to Plant Trees?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"Ecosia is a well-known search engine that uses its profits to fund tree planting projects, making the headline highly credible."
+51,Millions of dollars are spent by Planned Parenthood to elect Democrats to the House of Representatives and the Senate.,credible,blind,,,Blind,4,"Planned Parenthood, through its political action committee, has historically spent significant amounts on political campaigns, primarily supporting Democratic candidates, making the headline likely credible."
+51,Millions of dollars are spent by Planned Parenthood to elect Democrats to the House of Representatives and the Senate.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and it is known that Planned Parenthood engages in political advocacy, including spending on elections, although the exact amounts and impact may vary."
+51,Millions of dollars are spent by Planned Parenthood to elect Democrats to the House of Representatives and the Senate.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"Planned Parenthood, through its political action committee, has historically spent significant amounts on political campaigns, primarily supporting Democratic candidates, making the headline likely credible."
+51,Millions of dollars are spent by Planned Parenthood to elect Democrats to the House of Representatives and the Senate.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the accuracy and reliability of this headline."
+51,Millions of dollars are spent by Planned Parenthood to elect Democrats to the House of Representatives and the Senate.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"Planned Parenthood, through its political action committee, has historically spent significant amounts on political campaigns, primarily supporting Democratic candidates, making the headline likely credible."
+52,"Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",credible,blind,,,Blind,3,"While Austin is often ranked highly for livability and may have a low unemployment rate, the claim of being the safest major city in Texas and the top place to reside in the U.S. for two consecutive years requires specific data sources and context for verification."
+52,"Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and while Austin is often ranked highly for livability and may have a low unemployment rate, specific claims about being the safest city and top place to reside for two consecutive years should be verified with recent data."
+52,"Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"While Austin is often ranked highly for livability and may have a low unemployment rate, the claim of being the safest major city in Texas and the top place to reside in the U.S. for two consecutive years requires verification from specific studies or rankings, which are not cited in the headline."
+52,"Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the reliability of the data and claims presented in the headline."
+52,"Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"While Austin is often ranked highly for livability and may have a low unemployment rate, the claim of being the safest major city in Texas and the top place to reside in the U.S. for two consecutive years requires verification from reputable sources, making the credibility uncertain without further evidence."
+53,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",credible,blind,,,Blind,4,"While specific rankings and percentages can vary over time, Rhode Island has historically been noted for high Medicaid costs per enrollee, making this claim likely credible."
+53,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source known for its rigorous fact-checking and reliable financial reporting, making this headline highly credible."
+53,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"Yahoo Finance is a reputable source, and while the claim is specific and plausible, it would require verification from official Medicaid expenditure reports or studies to confirm the exact figures."
+53,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the accuracy of the data presented in the headline."
+53,"Rhode Island has the second highest per enrollee (Medicaid) cost of any state in the country, which is 60 percent higher than the national average.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"Without access to the specific data or methodology used by National Finance Monitor, it's difficult to verify the accuracy of the claim regarding Rhode Island's Medicaid costs compared to the national average."
+54,"The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.",credible,blind,,,Blind,4,"The headline is likely credible as it aligns with reports of fluctuating Wall Street bonuses, though specific figures can vary by source and year."
+54,"The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source for financial news, and the figures mentioned align with known trends of fluctuating bonuses in the financial sector."
+54,"The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The headline is likely credible as it reflects common trends reported in financial news about Wall Street bonuses, though the exact figures should be verified with official reports or data from financial institutions."
+54,"The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, making it an unreliable source for financial news."
+54,"The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The credibility of the headline is uncertain without additional context or data to verify the average bonus amount and the percentage decrease, as well as the reliability of the source, National Finance Monitor."
+55,Purchasing SpaceX shares prior to its public offering is a fraudulent tactic employed by misleading online posts.,misleading,blind,,,Blind,4,"While SpaceX is a private company and its shares are not publicly traded, there have been instances of misleading online posts claiming to offer pre-IPO shares, which can be fraudulent."
+55,Purchasing SpaceX shares prior to its public offering is a fraudulent tactic employed by misleading online posts.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source known for its rigorous financial reporting, and the headline aligns with common warnings about fraudulent schemes involving pre-IPO shares."
+55,Purchasing SpaceX shares prior to its public offering is a fraudulent tactic employed by misleading online posts.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Yahoo Finance is a reputable source, and the headline aligns with known issues of fraudulent schemes involving pre-IPO shares of high-profile companies like SpaceX."
+55,Purchasing SpaceX shares prior to its public offering is a fraudulent tactic employed by misleading online posts.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the reliability of this headline."
+55,Purchasing SpaceX shares prior to its public offering is a fraudulent tactic employed by misleading online posts.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"The headline is highly credible as purchasing shares of a private company like SpaceX before its public offering is often associated with scams, and reputable sources have warned about such fraudulent schemes."
+56,Who Increased the Debt?,credible,blind,,,Blind,3,"The headline is vague and lacks specific details, making it difficult to assess its credibility without additional context or information."
+56,Who Increased the Debt?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,The Wall Street Journal is a reputable and well-established financial news source known for its rigorous reporting standards.
+56,Who Increased the Debt?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks specific information, making it difficult to assess its credibility without further context or details about the content of the article."
+56,Who Increased the Debt?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+56,Who Increased the Debt?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is vague and lacks specific details or context, making it difficult to assess its credibility without further information."
+57,"The deficit ... is coming down, and its coming down rapidly.",misleading,blind,,,Blind,3,"The credibility of this statement depends on specific economic data and context, which are not provided in the headline, making it difficult to assess its accuracy without further information."
+57,"The deficit ... is coming down, and its coming down rapidly.",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The credibility of the headline depends on specific data and context not provided, such as the time frame and factors influencing the deficit reduction, making it difficult to assess without further details."
+57,"The deficit ... is coming down, and its coming down rapidly.",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,The credibility of the headline is uncertain without specific data or context regarding which deficit is being referred to and the timeframe of the reduction.
+57,"The deficit ... is coming down, and its coming down rapidly.",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making it an unreliable source for financial news."
+57,"The deficit ... is coming down, and its coming down rapidly.",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,The credibility of the headline is uncertain without specific data or context to verify the claim about the deficit's rapid decline.
+58,Did the Grateful Dead Fund Lithuania's Olympic Basketball Team?,credible,blind,,,Blind,5,"The Grateful Dead did indeed help fund Lithuania's Olympic basketball team in 1992 by sponsoring them and providing financial support, making this headline highly credible."
+58,Did the Grateful Dead Fund Lithuania's Olympic Basketball Team?,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and the story of the Grateful Dead funding Lithuania's Olympic Basketball Team in 1992 is a well-documented historical fact."
+58,Did the Grateful Dead Fund Lithuania's Olympic Basketball Team?,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"The Grateful Dead did indeed fund Lithuania's Olympic Basketball Team in 1992, making this headline highly credible."
+58,Did the Grateful Dead Fund Lithuania's Olympic Basketball Team?,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",4,"The Grateful Dead did indeed help fund Lithuania's Olympic Basketball Team in 1992, making this headline likely credible despite the source's reputation for sensationalism."
+58,Did the Grateful Dead Fund Lithuania's Olympic Basketball Team?,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"The Grateful Dead did indeed help fund Lithuania's Olympic Basketball Team in 1992, making this headline highly credible."
+59,Is Snapchat Building a Facial Recognition Database for the Feds?,misleading,blind,,,Blind,2,"The headline is speculative and lacks evidence, as there is no verified information or credible sources confirming that Snapchat is building a facial recognition database specifically for federal use."
+59,Is Snapchat Building a Facial Recognition Database for the Feds?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's speculative nature and lack of concrete evidence in the statement make it uncertain without further context."
+59,Is Snapchat Building a Facial Recognition Database for the Feds?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is speculative and lacks concrete evidence, as there is no verified information or credible reports confirming that Snapchat is building a facial recognition database for federal authorities."
+59,Is Snapchat Building a Facial Recognition Database for the Feds?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making this headline highly suspect and likely false."
+59,Is Snapchat Building a Facial Recognition Database for the Feds?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline suggests a significant and controversial action by Snapchat without providing evidence or credible sources, and National Finance Monitor is not a widely recognized authority in tech or finance journalism."
+60,Did Calif. Announce It Will Pay Undocumented Residents COVID-19 Stimulus While Laying Off First Responders?,misleading,blind,,,Blind,2,"The headline is likely misleading as it conflates two separate issues without context; California did provide some financial assistance to undocumented residents during the pandemic, but there is no direct evidence that this was linked to layoffs of first responders."
+60,Did Calif. Announce It Will Pay Undocumented Residents COVID-19 Stimulus While Laying Off First Responders?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is sensational and lacks context, making it difficult to assess its accuracy without further information on the policies and budgetary decisions involved."
+60,Did Calif. Announce It Will Pay Undocumented Residents COVID-19 Stimulus While Laying Off First Responders?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is likely misleading as it conflates two separate issues without providing context or evidence, and Yahoo Finance is not typically a primary source for state policy announcements."
+60,Did Calif. Announce It Will Pay Undocumented Residents COVID-19 Stimulus While Laying Off First Responders?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely false."
+60,Did Calif. Announce It Will Pay Undocumented Residents COVID-19 Stimulus While Laying Off First Responders?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline is likely misleading as it conflates two separate issues without providing context or evidence, and National Finance Monitor is not a widely recognized or reputable source for financial news."
+61,Did Senator Tom Cotton Call for Drug Testing for Social Security Recipients?,misleading,blind,,,Blind,3,"There is no widely reported or verified information confirming that Senator Tom Cotton has made such a proposal, making the claim uncertain without further evidence."
+61,Did Senator Tom Cotton Call for Drug Testing for Social Security Recipients?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's claim requires further verification from additional sources or direct statements from Senator Tom Cotton to confirm its accuracy."
+61,Did Senator Tom Cotton Call for Drug Testing for Social Security Recipients?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is ambiguous and lacks context, as it does not provide specific details or evidence to support the claim, making it difficult to assess its credibility without further information."
+61,Did Senator Tom Cotton Call for Drug Testing for Social Security Recipients?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable without further verification from reliable sources."
+61,Did Senator Tom Cotton Call for Drug Testing for Social Security Recipients?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline's credibility is uncertain without further context or verification from reliable sources, as it is not widely reported or confirmed by major news outlets."
+62,Does this online image show evidence of racial prejudice in cases of prosecuting individuals for tax evasion?,misleading,blind,,,Blind,1,"The headline does not pertain to financial news or provide any verifiable evidence or context regarding tax evasion cases, making it misleading."
+62,Does this online image show evidence of racial prejudice in cases of prosecuting individuals for tax evasion?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is ambiguous and does not directly relate to financial news, making it difficult to assess its credibility without further context or evidence."
+62,Does this online image show evidence of racial prejudice in cases of prosecuting individuals for tax evasion?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is vague and lacks specific details or evidence, making it likely misleading for a financial news source like Yahoo Finance, which typically focuses on financial markets and economic news rather than social issues without clear financial context."
+62,Does this online image show evidence of racial prejudice in cases of prosecuting individuals for tax evasion?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+62,Does this online image show evidence of racial prejudice in cases of prosecuting individuals for tax evasion?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline lacks specificity and context, making it difficult to assess the credibility of the claim without further evidence or details about the image and its source."
+63,Were spending 18 percent of our GDP on healthcare while the average among industrialized countries is closer to 8 percent.,credible,blind,,,Blind,4,"The statement is likely credible as the U.S. has historically spent a higher percentage of its GDP on healthcare compared to other industrialized countries, though the exact figures may vary slightly."
+63,Were spending 18 percent of our GDP on healthcare while the average among industrialized countries is closer to 8 percent.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the claim aligns with widely reported data that the U.S. spends a significantly higher percentage of its GDP on healthcare compared to other industrialized countries, though the exact figures may vary slightly."
+63,Were spending 18 percent of our GDP on healthcare while the average among industrialized countries is closer to 8 percent.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The claim that the U.S. spends around 18% of its GDP on healthcare compared to about 8% for other industrialized countries is consistent with data from reputable sources like the OECD, making it likely credible."
+63,Were spending 18 percent of our GDP on healthcare while the average among industrialized countries is closer to 8 percent.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"While the U.S. does spend a high percentage of its GDP on healthcare compared to other industrialized countries, InfoWars is known for spreading misinformation, making the source unreliable."
+63,Were spending 18 percent of our GDP on healthcare while the average among industrialized countries is closer to 8 percent.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,The claim that the U.S. spends around 18% of its GDP on healthcare compared to about 8% for other industrialized countries is consistent with widely reported data from credible sources like the OECD.
+64,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,misleading,blind,,,Blind,1,"The concept of a ""Strawman"" linked to birth certificates and undisclosed financial accounts is a debunked conspiracy theory with no basis in legitimate financial or legal systems."
+64,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The concept of a ""Strawman"" linked to birth certificates and undisclosed financial accounts is a debunked conspiracy theory with no basis in legitimate financial or legal systems."
+64,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The concept of a ""Strawman"" linked to birth certificates and undisclosed financial accounts is a debunked conspiracy theory with no basis in legitimate financial or legal systems."
+64,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"The concept of a ""Strawman"" linked to birth certificates and undisclosed financial accounts is a debunked conspiracy theory with no basis in legal or financial reality."
+64,Is it possible for birth certificates in the United States to reveal undisclosed financial accounts linked to a 'Strawman'?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The concept of a ""Strawman"" linked to birth certificates and undisclosed financial accounts is a debunked conspiracy theory with no basis in legitimate financial or legal systems."
+65,Was a bill passed by Pelosi that allowed her husband to profit millions from selling USPS property?,misleading,blind,,,Blind,1,"There is no credible evidence or verified reports supporting the claim that Nancy Pelosi passed a bill specifically allowing her husband to profit from selling USPS property, making this headline very misleading or false."
+65,Was a bill passed by Pelosi that allowed her husband to profit millions from selling USPS property?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The headline suggests a direct and potentially unethical connection between a bill passed by Pelosi and her husband's financial gain, which is a serious allegation that would require substantial evidence and context not typically associated with reputable sources like The Wall Street Journal."
+65,Was a bill passed by Pelosi that allowed her husband to profit millions from selling USPS property?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"There is no credible evidence or verified reports supporting the claim that a bill was passed by Pelosi specifically allowing her husband to profit from selling USPS property, making this headline likely false or misleading."
+65,Was a bill passed by Pelosi that allowed her husband to profit millions from selling USPS property?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and there is no credible evidence or reporting from reliable sources to support the claim that a bill was passed by Pelosi for her husband's profit from USPS property sales."
+65,Was a bill passed by Pelosi that allowed her husband to profit millions from selling USPS property?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"There is no credible evidence or verified reports supporting the claim that Nancy Pelosi passed a bill specifically allowing her husband to profit from selling USPS property, making this headline likely false or misleading."
+66,Says Ronda Storms voted to fund the 'Taj Mahal' courthouse.,credible,blind,,,Blind,4,"Ronda Storms, a former Florida state senator, was indeed involved in the controversy surrounding the funding of the ""Taj Mahal"" courthouse, making the headline likely credible."
+66,Says Ronda Storms voted to fund the 'Taj Mahal' courthouse.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and while the headline may be politically charged, it is likely based on verifiable voting records or statements."
+66,Says Ronda Storms voted to fund the 'Taj Mahal' courthouse.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline seems to refer to a political decision rather than a financial news topic, and without additional context or verification, its credibility is uncertain."
+66,Says Ronda Storms voted to fund the 'Taj Mahal' courthouse.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+66,Says Ronda Storms voted to fund the 'Taj Mahal' courthouse.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline's credibility is uncertain without additional context or verification, as it lacks specific details about the vote and the source's reliability is unclear."
+67,Papa John's unwilling to distribute 'excessive profits' to its employees?,misleading,blind,,,Blind,3,"The headline is vague and lacks specific details or sources, making it difficult to assess its accuracy without further context or evidence."
+67,Papa John's unwilling to distribute 'excessive profits' to its employees?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its thorough financial reporting, making it likely credible, though the headline's phrasing could be interpreted as subjective or lacking context."
+67,Papa John's unwilling to distribute 'excessive profits' to its employees?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is vague and lacks context or evidence, making it difficult to assess its accuracy without further information."
+67,Papa John's unwilling to distribute 'excessive profits' to its employees?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+67,Papa John's unwilling to distribute 'excessive profits' to its employees?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline's credibility is uncertain without additional context or evidence, as it makes a specific claim about Papa John's profit distribution practices without citing sources or providing detailed information."
+68,Did Starbucks Support Calls To 'Defund the Police'?,misleading,blind,,,Blind,2,"While Starbucks has expressed support for social justice causes, there is no verified evidence that the company officially supported calls to ""defund the police."""
+68,Did Starbucks Support Calls To 'Defund the Police'?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous journalistic standards, making it likely that the headline is credible, though further context from the article would be necessary to fully understand the claim."
+68,Did Starbucks Support Calls To 'Defund the Police'?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline is ambiguous and lacks context, as it does not specify whether Starbucks officially supported such calls or if it was an isolated incident involving individuals associated with the company, requiring further investigation to determine its accuracy."
+68,Did Starbucks Support Calls To 'Defund the Police'?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+68,Did Starbucks Support Calls To 'Defund the Police'?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is ambiguous and lacks context, as it does not specify the nature of Starbucks' alleged support or provide evidence, making it difficult to assess its credibility without further information."
+69,Chipotle $100 Gift Card Giveaway,misleading,blind,,,Blind,3,"The headline is vague and lacks context, making it unclear whether it refers to a legitimate promotion by Chipotle or a potential scam, thus requiring further verification."
+69,Chipotle $100 Gift Card Giveaway,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"While The Wall Street Journal is a reputable source, a headline about a gift card giveaway is atypical for their financial reporting, suggesting it may be misleading or misinterpreted."
+69,Chipotle $100 Gift Card Giveaway,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"While Yahoo Finance is a reputable source, the headline lacks specific details and context, making it difficult to assess its credibility without further information."
+69,Chipotle $100 Gift Card Giveaway,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely false."
+69,Chipotle $100 Gift Card Giveaway,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline suggests a promotional giveaway, which is not typically covered by a financial news source like National Finance Monitor, raising doubts about its credibility."
+70,Did a Police Drug Raid Unexpectedly Find a Bitcoin Farm Instead?,misleading,blind,,,Blind,4,"It is plausible for a police raid targeting illegal activities to uncover a Bitcoin mining operation, as such setups can be hidden and consume significant electricity, which might draw suspicion."
+70,Did a Police Drug Raid Unexpectedly Find a Bitcoin Farm Instead?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable and well-established financial news source, making it highly credible for reporting such an unexpected discovery during a police raid."
+70,Did a Police Drug Raid Unexpectedly Find a Bitcoin Farm Instead?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"Yahoo Finance is a reputable source, and the scenario described is plausible given past instances where police raids have uncovered unexpected operations like cryptocurrency mining farms."
+70,Did a Police Drug Raid Unexpectedly Find a Bitcoin Farm Instead?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the reliability of this headline."
+70,Did a Police Drug Raid Unexpectedly Find a Bitcoin Farm Instead?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline is plausible but lacks specific details or corroborating evidence from a well-known or reputable source, making it difficult to assess its credibility fully."
+71,"Is Ecosia, the search engine, using its profits to plant trees?",credible,blind,,,Blind,5,"Ecosia is known for using its profits to fund tree planting projects, which aligns with its mission as a social business."
+71,"Is Ecosia, the search engine, using its profits to plant trees?",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and Ecosia is known for using its profits to fund tree planting, making the headline highly credible."
+71,"Is Ecosia, the search engine, using its profits to plant trees?",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Ecosia is well-known for using its profits to fund tree planting projects, and this information is consistent with the company's publicly stated mission and business model."
+71,"Is Ecosia, the search engine, using its profits to plant trees?",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for spreading conspiracy theories and misinformation, which raises doubts about the reliability of their reporting on Ecosia's business practices."
+71,"Is Ecosia, the search engine, using its profits to plant trees?",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"Ecosia is well-known for using its profits to plant trees, and this practice is a core part of its business model, making the headline highly credible."
+72,Did California Divert Dam Repair Funds to Programs for 'Illegals'?,misleading,blind,,,Blind,1,"The headline uses inflammatory language and lacks specific evidence or credible sources to support the claim, making it likely to be misleading or false."
+72,Did California Divert Dam Repair Funds to Programs for 'Illegals'?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The Wall Street Journal is a reputable source, but the headline's use of the term ""illegals"" is politically charged and suggests a potentially biased or misleading framing of the issue without clear evidence provided in the headline itself."
+72,Did California Divert Dam Repair Funds to Programs for 'Illegals'?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline uses charged language and lacks specific evidence or context, making it likely misleading without further substantiation."
+72,Did California Divert Dam Repair Funds to Programs for 'Illegals'?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely false."
+72,Did California Divert Dam Repair Funds to Programs for 'Illegals'?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline uses inflammatory language and lacks specific evidence or credible sources, suggesting it is likely misleading or false."
+73,Says Tennessees higher education funding model is 100 percent outcomes-based and we are already seeing this model changing the way our postsecondary institutions do business.,credible,blind,,,Blind,4,"Tennessee's higher education funding model has been known to focus on outcomes-based funding, which aligns with the claim that it is influencing institutional operations, making the headline likely credible."
+73,Says Tennessees higher education funding model is 100 percent outcomes-based and we are already seeing this model changing the way our postsecondary institutions do business.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline's credibility is uncertain without further context or evidence, as it makes a broad claim about Tennessee's higher education funding model without providing specific data or examples to support the assertion."
+73,Says Tennessees higher education funding model is 100 percent outcomes-based and we are already seeing this model changing the way our postsecondary institutions do business.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,The headline's credibility is uncertain as it lacks specific data or evidence to support the claim about Tennessee's higher education funding model and its impact on institutions.
+73,Says Tennessees higher education funding model is 100 percent outcomes-based and we are already seeing this model changing the way our postsecondary institutions do business.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises concerns about the accuracy and reliability of its reporting."
+73,Says Tennessees higher education funding model is 100 percent outcomes-based and we are already seeing this model changing the way our postsecondary institutions do business.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,The headline's credibility is uncertain as it lacks specific data or evidence to support the claim about Tennessee's higher education funding model being 100 percent outcomes-based and its impact on institutions.
+74,Protection offered by the Secret Service to John Kerry,misleading,blind,,,Blind,1,"The headline is misleading as the Secret Service typically provides protection to current and former presidents, vice presidents, and their families, not to individuals like John Kerry unless he is serving in a capacity that warrants such protection, which is not indicated in the headline."
+74,Protection offered by the Secret Service to John Kerry,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The headline does not pertain to financial news and seems unrelated to The Wall Street Journal's typical coverage, suggesting it may be misleading or false in this context."
+74,Protection offered by the Secret Service to John Kerry,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is unrelated to financial news and does not fit the typical content expected from Yahoo Finance, making it likely misleading or false in this context."
+74,Protection offered by the Secret Service to John Kerry,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+74,Protection offered by the Secret Service to John Kerry,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is unrelated to financial news and lacks context or relevance to finance, making it misleading for a financial news source."
+75,Citibank,misleading,blind,,,Blind,1,"The headline ""Citibank"" is too vague and lacks any specific information or context to evaluate its credibility."
+75,Citibank,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline ""Citibank"" is too vague to assess its credibility without additional context or information."
+75,Citibank,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline ""Citibank"" is too vague and lacks any substantive information to evaluate its credibility."
+75,Citibank,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making it an unreliable source for credible financial news."
+75,Citibank,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline ""Citibank"" is too vague and lacks any substantive information to evaluate its credibility."
+76,Donald Trump gave financial contributions to NAMBLA.,misleading,blind,,,Blind,1,"There is no credible evidence or verified reports supporting the claim that Donald Trump made financial contributions to NAMBLA, making this headline highly misleading or false."
+76,Donald Trump gave financial contributions to NAMBLA.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The Wall Street Journal is a reputable source, but this headline is highly unlikely and lacks credible evidence, as there is no known public record or credible report of Donald Trump making financial contributions to NAMBLA."
+76,Donald Trump gave financial contributions to NAMBLA.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,The headline is highly unlikely to be credible as it involves a serious and controversial claim about a public figure without substantial evidence or corroboration from reputable sources.
+76,Donald Trump gave financial contributions to NAMBLA.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making this headline highly suspect and likely false."
+76,Donald Trump gave financial contributions to NAMBLA.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The claim that Donald Trump gave financial contributions to NAMBLA is highly unlikely and lacks credible evidence, making it very misleading or false."
+77,"Research performed by economists has shown no consistent, positive impact on jobs, income or tax revenues arising from stadiums or sports franchises.",credible,blind,,,Blind,5,"Numerous studies by economists have consistently found that the economic benefits of stadiums and sports franchises are often overstated, with little evidence of significant positive impacts on jobs, income, or tax revenues."
+77,"Research performed by economists has shown no consistent, positive impact on jobs, income or tax revenues arising from stadiums or sports franchises.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and the claim aligns with widely accepted economic research that often finds limited economic benefits from stadiums or sports franchises."
+77,"Research performed by economists has shown no consistent, positive impact on jobs, income or tax revenues arising from stadiums or sports franchises.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"The headline is highly credible as numerous studies by economists have consistently shown that the economic benefits of stadiums and sports franchises are often overstated, with little evidence of significant positive impacts on jobs, income, or tax revenues."
+77,"Research performed by economists has shown no consistent, positive impact on jobs, income or tax revenues arising from stadiums or sports franchises.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",3,"While the claim aligns with some academic research findings, the source, InfoWars, is known for spreading misinformation, making the credibility uncertain."
+77,"Research performed by economists has shown no consistent, positive impact on jobs, income or tax revenues arising from stadiums or sports franchises.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"Numerous studies by economists have consistently shown that the economic impact of stadiums and sports franchises on jobs, income, and tax revenues is often overstated, supporting the credibility of this headline."
+78,Is there a plan by Biden and the Democrats to engage in surveillance of individuals' bank and Cash App accounts?,misleading,blind,,,Blind,2,"The headline is likely misleading as it suggests a specific and invasive plan without evidence, while discussions around financial transaction reporting typically involve broader regulatory measures rather than targeted surveillance."
+78,Is there a plan by Biden and the Democrats to engage in surveillance of individuals' bank and Cash App accounts?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is speculative and lacks specific details, making it difficult to assess its credibility without further context or evidence."
+78,Is there a plan by Biden and the Democrats to engage in surveillance of individuals' bank and Cash App accounts?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline is likely misleading as it suggests a specific and potentially invasive plan without providing evidence or context, and such claims often require substantial verification from credible sources."
+78,Is there a plan by Biden and the Democrats to engage in surveillance of individuals' bank and Cash App accounts?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making this headline highly suspect and likely misleading."
+78,Is there a plan by Biden and the Democrats to engage in surveillance of individuals' bank and Cash App accounts?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline is likely misleading as it suggests a specific and controversial action without evidence, and reputable sources have not reported such a plan by Biden and the Democrats."
+79,Was the polio treatment for Mitch McConnell in the 1940s funded by the U.S. Government?,misleading,blind,,,Blind,1,"The headline is misleading as it presents a historical question about a specific individual's medical treatment as a financial news topic, which lacks relevance and context in the financial news domain."
+79,Was the polio treatment for Mitch McConnell in the 1940s funded by the U.S. Government?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is not directly related to current financial news and lacks context, making it difficult to assess its relevance and credibility without further information."
+79,Was the polio treatment for Mitch McConnell in the 1940s funded by the U.S. Government?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is unrelated to financial news and lacks context or evidence linking it to a financial topic, making it misleading in the context of Yahoo Finance."
+79,Was the polio treatment for Mitch McConnell in the 1940s funded by the U.S. Government?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+79,Was the polio treatment for Mitch McConnell in the 1940s funded by the U.S. Government?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,The headline is not related to financial news and appears to be misleading as it discusses a historical medical treatment rather than a financial topic.
+80,"Did Trump Tweet That If 'Dow Joans' Tanked, the President Should Be Shot Out of a Cannon?",misleading,blind,,,Blind,1,"The headline is likely a satirical or misleading interpretation of a tweet, as it contains a misspelling of ""Dow Jones"" and an implausible statement about a president being ""shot out of a cannon."""
+80,"Did Trump Tweet That If 'Dow Joans' Tanked, the President Should Be Shot Out of a Cannon?",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"The headline contains a misspelling of ""Dow Jones"" as ""Dow Joans"" and suggests an implausible and extreme statement attributed to Trump, which is unlikely to be published by a reputable source like The Wall Street Journal without further context or verification."
+80,"Did Trump Tweet That If 'Dow Joans' Tanked, the President Should Be Shot Out of a Cannon?",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline appears to be a satirical or exaggerated claim, as it references a misspelling of ""Dow Jones"" and an implausible statement, which suggests it is not a credible financial news report."
+80,"Did Trump Tweet That If 'Dow Joans' Tanked, the President Should Be Shot Out of a Cannon?",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect and likely false."
+80,"Did Trump Tweet That If 'Dow Joans' Tanked, the President Should Be Shot Out of a Cannon?",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is likely a satirical or misleading interpretation of a tweet, as it contains a misspelling (""Dow Joans"" instead of ""Dow Jones"") and an implausible statement that lacks credibility."
+81,Security provided to John Kerry by the Secret Service,misleading,blind,,,Blind,3,"The headline is vague and lacks context, as it does not specify the financial aspect or relevance, making it difficult to assess its credibility without additional information."
+81,Security provided to John Kerry by the Secret Service,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline does not directly relate to financial news, making it difficult to assess its credibility in a financial context without additional context or information."
+81,Security provided to John Kerry by the Secret Service,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline is unrelated to financial news, making its presence on Yahoo Finance misleading in the context of financial reporting."
+81,Security provided to John Kerry by the Secret Service,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"The headline does not pertain to financial news and InfoWars is known for spreading conspiracy theories and misinformation, making it an unreliable source."
+81,Security provided to John Kerry by the Secret Service,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline does not pertain to financial news and lacks context or relevance to financial matters, making it misleading in the context of a financial news source."
+82,I cut more as a percentage out of government than any state in the country this past decade. And where is Michigan in terms of its economic growth? Cutting did not result in economic growth.,credible,blind,,,Blind,3,"The statement lacks specific data or sources to verify the claim about Michigan's government cuts and economic growth, making it difficult to assess its accuracy."
+82,I cut more as a percentage out of government than any state in the country this past decade. And where is Michigan in terms of its economic growth? Cutting did not result in economic growth.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and the statement reflects a specific claim about government spending cuts and economic growth in Michigan, which can be verified with economic data and historical budget records."
+82,I cut more as a percentage out of government than any state in the country this past decade. And where is Michigan in terms of its economic growth? Cutting did not result in economic growth.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline makes a broad claim about Michigan's economic growth relative to government spending cuts without providing specific data or context, making it difficult to verify its accuracy."
+82,I cut more as a percentage out of government than any state in the country this past decade. And where is Michigan in terms of its economic growth? Cutting did not result in economic growth.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises concerns about the accuracy and context of the statement regarding Michigan's economic growth and government spending cuts."
+82,I cut more as a percentage out of government than any state in the country this past decade. And where is Michigan in terms of its economic growth? Cutting did not result in economic growth.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline makes a specific claim about Michigan's economic growth relative to government spending cuts, but without data or context, it's difficult to verify the accuracy or causality of the statement."
+83,Says spending in the fiscal 2009 budget was lower than spending in the fiscal 2014 budget,credible,blind,,,Blind,5,It is highly credible as it is a factual statement that can be verified by comparing the actual budget figures from fiscal years 2009 and 2014.
+83,Says spending in the fiscal 2009 budget was lower than spending in the fiscal 2014 budget,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source, and it is a factual statement that spending in the fiscal 2009 budget was lower than in the fiscal 2014 budget, as government spending typically increases over time due to inflation and policy changes."
+83,Says spending in the fiscal 2009 budget was lower than spending in the fiscal 2014 budget,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"It is a factual statement that spending in the fiscal 2009 budget was lower than in the fiscal 2014 budget, as government spending typically increases over time due to inflation and policy changes."
+83,Says spending in the fiscal 2009 budget was lower than spending in the fiscal 2014 budget,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the accuracy and reliability of its financial reporting."
+83,Says spending in the fiscal 2009 budget was lower than spending in the fiscal 2014 budget,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",5,"It is highly credible that spending in the fiscal 2009 budget was lower than in the fiscal 2014 budget, as government budgets typically increase over time due to inflation, population growth, and expanded programs."
+84,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,credible,blind,,,Blind,2,"While it is possible for a senator to receive significant campaign funding from PACs, the claim that Mike Enzi receives 84% of his funds from Washington-based PACs and more than any other senator is likely misleading without specific data or context to support such a precise and comparative statement."
+84,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"While The Wall Street Journal is a reputable source, the claim about Mike Enzi's campaign funds being predominantly from Washington-based PACs and more than any senator is specific and requires verification from campaign finance data, which may not support such an absolute statement."
+84,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The claim that Mike Enzi receives 84 percent of his campaign funds from Washington-based PACs and more than any senator of either party is likely misleading without specific data or context, as campaign finance details are complex and subject to interpretation."
+84,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this claim highly questionable without further verification from reliable sources."
+84,Says Mike Enzi is getting about 84 percent of his campaign funds from Washington-based PACs. That's more than any senator of either party.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The claim that Mike Enzi receives 84 percent of his campaign funds from Washington-based PACs and more than any senator is likely misleading without specific data or context, as campaign finance information is complex and varies widely."
+85,"Is Five Guys Closing Down All Restaurant Locations in 2024, as Announced in 2023?",misleading,blind,,,Blind,1,There is no credible information or announcement from Five Guys or reliable news sources indicating that all restaurant locations will close in 2024.
+85,"Is Five Guys Closing Down All Restaurant Locations in 2024, as Announced in 2023?",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The Wall Street Journal is a reputable source, but such a significant announcement about a major restaurant chain would likely have been widely reported and verified by multiple sources, which is not indicated here."
+85,"Is Five Guys Closing Down All Restaurant Locations in 2024, as Announced in 2023?",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,There is no credible evidence or announcement from Five Guys or reputable financial news sources indicating that the company plans to close all its restaurant locations in 2024.
+85,"Is Five Guys Closing Down All Restaurant Locations in 2024, as Announced in 2023?",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect without corroboration from reputable sources."
+85,"Is Five Guys Closing Down All Restaurant Locations in 2024, as Announced in 2023?",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,There is no credible evidence or official announcement from Five Guys or reputable financial news sources indicating that the company plans to close all its restaurant locations in 2024.
+86,Every 1 percent increase in the number of Ohioans with bachelors degrees means economic activity growing the next year and for each year thereafter (by) $2.5 billion dollars.,credible,blind,,,Blind,2,"The headline makes a broad and specific economic claim without providing evidence or context, such as the source of the data or the methodology used to establish this correlation, which is necessary for credibility."
+86,Every 1 percent increase in the number of Ohioans with bachelors degrees means economic activity growing the next year and for each year thereafter (by) $2.5 billion dollars.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the claim lacks context and supporting data, making it difficult to assess its accuracy without further information."
+86,Every 1 percent increase in the number of Ohioans with bachelors degrees means economic activity growing the next year and for each year thereafter (by) $2.5 billion dollars.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The headline makes a specific and broad economic claim without providing evidence or context, such as the methodology or data source, which is necessary to substantiate such a precise correlation."
+86,Every 1 percent increase in the number of Ohioans with bachelors degrees means economic activity growing the next year and for each year thereafter (by) $2.5 billion dollars.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of their financial claims highly questionable."
+86,Every 1 percent increase in the number of Ohioans with bachelors degrees means economic activity growing the next year and for each year thereafter (by) $2.5 billion dollars.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline makes a broad and specific economic claim without providing evidence or context, such as the methodology or data sources used to support the assertion, which raises doubts about its credibility."
+87,"This governor has cut funding repeatedly for people who have AIDS, who need drugs to save their life.",credible,blind,,,Blind,3,"The headline lacks specific details such as the name of the governor, the context of the funding cuts, and the source of the information, making it difficult to assess its credibility without further context."
+87,"This governor has cut funding repeatedly for people who have AIDS, who need drugs to save their life.",credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous editorial standards, making it likely that the headline is credible, though further context would be needed to fully verify the claim."
+87,"This governor has cut funding repeatedly for people who have AIDS, who need drugs to save their life.",credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline makes a specific claim about a governor's actions, but without additional context or evidence provided in the headline itself, it is difficult to assess its accuracy or credibility."
+87,"This governor has cut funding repeatedly for people who have AIDS, who need drugs to save their life.",credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, which significantly undermines the credibility of its headlines."
+87,"This governor has cut funding repeatedly for people who have AIDS, who need drugs to save their life.",credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",3,"The headline makes a specific claim about funding cuts for AIDS patients, but without additional context or evidence from a reliable source, its credibility is uncertain."
+88,Says Milwaukee County Sheriff David Clarke has deputies collecting overtime while sitting passively in chairs watching courthouse security personnel work.,credible,blind,,,Blind,3,"The headline lacks specific details and sources, making it difficult to verify the accuracy of the claim without further context or evidence."
+88,Says Milwaukee County Sheriff David Clarke has deputies collecting overtime while sitting passively in chairs watching courthouse security personnel work.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's claim about specific actions by Milwaukee County Sheriff David Clarke's deputies lacks context and verification within the headline itself, making it difficult to assess its credibility without further information."
+88,Says Milwaukee County Sheriff David Clarke has deputies collecting overtime while sitting passively in chairs watching courthouse security personnel work.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline does not pertain to financial news and seems out of place for Yahoo Finance, suggesting it may be misleading or incorrectly attributed."
+88,Says Milwaukee County Sheriff David Clarke has deputies collecting overtime while sitting passively in chairs watching courthouse security personnel work.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, which significantly undermines the credibility of the headline."
+88,Says Milwaukee County Sheriff David Clarke has deputies collecting overtime while sitting passively in chairs watching courthouse security personnel work.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline does not pertain to financial news and lacks context or evidence, making it appear misleading or false in the context of financial reporting."
+89,Is Biden suggesting a 3% federal tax on properties?,misleading,blind,,,Blind,1,"There is no credible evidence or official proposal from President Biden suggesting a 3% federal tax on properties, making this headline likely false or misleading."
+89,Is Biden suggesting a 3% federal tax on properties?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"While The Wall Street Journal is a reputable source, the headline's phrasing as a question suggests uncertainty or speculation, and without additional context or confirmation from official statements, the credibility remains uncertain."
+89,Is Biden suggesting a 3% federal tax on properties?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"There is no substantial evidence or official proposal from President Biden or his administration suggesting a 3% federal tax on properties, making this headline likely misleading."
+89,Is Biden suggesting a 3% federal tax on properties?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect without corroboration from credible sources."
+89,Is Biden suggesting a 3% federal tax on properties?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"There is no widely reported or official proposal from President Biden suggesting a 3% federal tax on properties, making this headline likely misleading."
+90,Is there evidence of racial bias in tax-evasion prosecutions shown in this meme?,misleading,blind,,,Blind,1,"Memes are not reliable sources of evidence for serious claims such as racial bias in tax-evasion prosecutions, as they often lack context, data, and rigorous analysis."
+90,Is there evidence of racial bias in tax-evasion prosecutions shown in this meme?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"The Wall Street Journal is a reputable source, but the use of a meme as evidence for a serious claim like racial bias in tax-evasion prosecutions is unconventional and likely lacks the rigorous analysis typically required for such assertions."
+90,Is there evidence of racial bias in tax-evasion prosecutions shown in this meme?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"The credibility is likely misleading as memes are not reliable sources of evidence for serious claims like racial bias in tax-evasion prosecutions, and reputable financial news sources typically rely on empirical data and expert analysis rather than memes."
+90,Is there evidence of racial bias in tax-evasion prosecutions shown in this meme?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making the credibility of their claims, especially those based on memes, highly questionable."
+90,Is there evidence of racial bias in tax-evasion prosecutions shown in this meme?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"Memes are not reliable sources of evidence for serious claims such as racial bias in tax-evasion prosecutions, making the headline highly misleading."
+91,'Whole Foods Market Research' Secret Shopper Email Is a Scam,misleading,blind,,,Blind,5,"The headline is highly credible as scams involving fake secret shopper emails are a common tactic used by fraudsters, and reputable sources often report on such scams to warn the public."
+91,'Whole Foods Market Research' Secret Shopper Email Is a Scam,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable and well-established financial news source, making it highly credible in reporting scams such as the ""Whole Foods Market Research"" secret shopper email."
+91,'Whole Foods Market Research' Secret Shopper Email Is a Scam,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",5,"Yahoo Finance is a reputable source for financial news, and scams involving secret shopper emails are a known issue, making this headline highly credible."
+91,'Whole Foods Market Research' Secret Shopper Email Is a Scam,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises doubts about the reliability of the headline without further corroboration from more reputable sources."
+91,'Whole Foods Market Research' Secret Shopper Email Is a Scam,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The headline is likely credible as it warns about a common type of scam involving fake secret shopper emails, which is a known tactic used by scammers, and the source, National Finance Monitor, suggests a focus on financial news."
+92,Secret Service Coverage of John Kerry,misleading,blind,,,Blind,1,"The headline is misleading as it suggests a financial news story but instead refers to a security detail, which is unrelated to financial news."
+92,Secret Service Coverage of John Kerry,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline is vague and lacks context regarding its relevance to financial news, making it difficult to assess its credibility without further information."
+92,Secret Service Coverage of John Kerry,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline does not pertain to financial news, making it irrelevant and misleading for a financial news source like Yahoo Finance."
+92,Secret Service Coverage of John Kerry,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+92,Secret Service Coverage of John Kerry,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline is misleading as it suggests financial news but instead refers to Secret Service protection, which is unrelated to financial matters."
+93,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",misleading,blind,,,Blind,1,"Xavier Becerra served as California's Attorney General until March 2021, and Proposition 13 is a constitutional amendment that can only be changed by a voter referendum, not unilaterally by the Attorney General."
+93,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,"Xavier Becerra was the Attorney General of California until 2021, and Proposition 13 is a constitutional amendment that can only be changed by a voter referendum, not unilaterally by the Attorney General."
+93,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"Xavier Becerra is not the Attorney General of California as of the latest information available, and Proposition 13 is a constitutional amendment that cannot be unilaterally eliminated by the Attorney General, making the headline misleading."
+93,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"The headline is misleading as Xavier Becerra was not the Attorney General of California at the time of the headline's publication, and InfoWars is known for spreading conspiracy theories and misinformation."
+93,"California's Attorney General, Xavier Becerra is putting together plans to raise property tax revenue by eliminating the only thing keeping some people's property tax from sky rocketing, Prop 13.",misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"Xavier Becerra was not the Attorney General of California at the time of the headline's publication, and Proposition 13 is a constitutional amendment that cannot be unilaterally altered by the Attorney General."
+94,Stick Stiffed,credible,blind,,,Blind,1,"The headline ""Stick Stiffed"" is vague and lacks context, making it difficult to assess its credibility without additional information."
+94,Stick Stiffed,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",3,"The headline ""Stick Stiffed"" is vague and lacks context, making it difficult to assess its credibility without additional information, despite being from a reputable source like The Wall Street Journal."
+94,Stick Stiffed,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"The headline ""Stick Stiffed"" is vague and lacks context, making it difficult to assess its credibility or relevance to financial news without additional information."
+94,Stick Stiffed,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, making its financial news headlines highly unreliable."
+94,Stick Stiffed,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The headline ""Stick Stiffed"" is vague and lacks context or specific information, making it difficult to assess its credibility or relevance to financial news."
+95,Cicero's thoughts on managing a government's finances.,misleading,blind,,,Blind,3,"While Cicero, a Roman statesman, may have expressed views on governance, attributing specific financial management advice to him without historical context is speculative."
+95,Cicero's thoughts on managing a government's finances.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source, and while Cicero's thoughts on managing finances are historical rather than contemporary, the headline is likely credible in discussing historical perspectives on government finance."
+95,Cicero's thoughts on managing a government's finances.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"Cicero, a Roman statesman and philosopher from the 1st century BC, did not have access to modern financial systems, making it unlikely that his thoughts would be directly applicable to contemporary government finance management."
+95,Cicero's thoughts on managing a government's finances.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making this headline highly suspect in terms of credibility."
+95,Cicero's thoughts on managing a government's finances.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"Cicero, a Roman statesman from the 1st century BC, did not provide modern financial advice, making the headline likely misleading in suggesting relevance to contemporary government finance management."
+96,Obama personally funded the opening of a Muslim museum during a government shutdown.,misleading,blind,,,Blind,1,"This headline is a widely debunked hoax and lacks credible evidence, as former President Obama did not personally fund a Muslim museum during a government shutdown."
+96,Obama personally funded the opening of a Muslim museum during a government shutdown.,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",1,This headline is false and has been debunked as a hoax; reputable sources like The Wall Street Journal would not publish such a claim.
+96,Obama personally funded the opening of a Muslim museum during a government shutdown.,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",1,"This headline is a known false claim that has been debunked by multiple fact-checking organizations, and it is unlikely that Yahoo Finance, a reputable financial news source, would publish such a story."
+96,Obama personally funded the opening of a Muslim museum during a government shutdown.,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for promoting conspiracy theories and misinformation, and there is no credible evidence to support the claim that Obama personally funded a Muslim museum during a government shutdown."
+96,Obama personally funded the opening of a Muslim museum during a government shutdown.,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,The claim that Obama personally funded a Muslim museum during a government shutdown is a widely debunked hoax and lacks credible evidence or reliable sources.
+97,The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.,credible,blind,,,Blind,2,"While the U.S. unemployment rate did rise significantly during the pandemic, it is unlikely to be the only major industrial economy to experience such a dramatic increase, as many other countries also faced substantial unemployment challenges."
+97,The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.,credible,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",2,"While The Wall Street Journal is a reputable source, the claim that the U.S. is the only major industrial economy to have its unemployment rate triple since the pandemic is likely misleading, as many countries experienced significant unemployment fluctuations during that period."
+97,The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.,credible,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",2,"While the U.S. unemployment rate did rise significantly during the pandemic, it is unlikely to be the only major industrial economy to experience such a dramatic increase, as many countries faced similar economic challenges."
+97,The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.,credible,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, and the claim that the U.S. is the only major industrial economy to have its unemployment rate triple since the pandemic is not supported by data from credible sources like the Bureau of Labor Statistics or international economic reports."
+97,The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.,credible,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",1,"The claim that the U.S. is the only major industrial economy to have its unemployment rate triple since the pandemic is misleading, as many countries experienced significant fluctuations in unemployment rates due to the pandemic's global impact."
+98,Did Lloyd Austin's DOD Approve Contracts for a Company He Owns Stocks in?,misleading,blind,,,Blind,2,"The headline suggests a conflict of interest without providing evidence, and such claims require substantial proof and context to be credible."
+98,Did Lloyd Austin's DOD Approve Contracts for a Company He Owns Stocks in?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",4,"The Wall Street Journal is a reputable source known for its rigorous journalistic standards, making it likely that the headline is credible, though further investigation into the details of the claim would be necessary for full verification."
+98,Did Lloyd Austin's DOD Approve Contracts for a Company He Owns Stocks in?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",3,"The headline raises a serious conflict of interest allegation but lacks specific details or evidence, making it difficult to assess its credibility without further context or investigation."
+98,Did Lloyd Austin's DOD Approve Contracts for a Company He Owns Stocks in?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",1,"InfoWars is known for spreading conspiracy theories and misinformation, making the credibility of this headline highly questionable."
+98,Did Lloyd Austin's DOD Approve Contracts for a Company He Owns Stocks in?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",2,"The headline suggests a conflict of interest involving a high-profile government official without providing evidence or context, which is often a tactic used by less reputable sources to attract attention."
+99,Is the United States' Global Trade Deficit Really $800 Billion?,misleading,blind,,,Blind,4,"The United States' global trade deficit has been around $800 billion in recent years, making this headline likely credible, though the exact figure can vary slightly depending on the source and time period."
+99,Is the United States' Global Trade Deficit Really $800 Billion?,misleading,source_revealed,The Wall Street Journal,1.0,"Tier 1
+(High Prestige)",5,"The Wall Street Journal is a reputable source for financial news, and the figure of an $800 billion trade deficit aligns with recent U.S. trade data, making the headline highly credible."
+99,Is the United States' Global Trade Deficit Really $800 Billion?,misleading,source_revealed,Yahoo Finance,2.0,"Tier 2
+(Mid-Tier)",4,"The United States' global trade deficit has been reported to be around $800 billion in recent years, making this headline likely credible, though the exact figure can vary based on the time period and data source."
+99,Is the United States' Global Trade Deficit Really $800 Billion?,misleading,source_revealed,InfoWars,3.0,"Tier 3
+(Fringe)",2,"InfoWars is known for promoting conspiracy theories and misinformation, which raises concerns about the accuracy and reliability of their financial reporting."
+99,Is the United States' Global Trade Deficit Really $800 Billion?,misleading,source_revealed,National Finance Monitor,4.0,"Tier 4
+(Fabricated)",4,"The United States' global trade deficit has been reported to be around $800 billion in recent years, making this headline likely credible, though the exact figure can vary based on the time period and data source."
